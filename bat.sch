@@ -1,0 +1,400 @@
+EESchema Schematic File Version 2
+LIBS:power,/home/jessb/kicad/libraries/jessb,/home/jessb/kicad/libraries/okie,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./mapleNative.cache
+EELAYER 24  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 7500 2000 0    60   ~
+VCC
+Text Label 7500 1900 0    60   ~
+VCC
+Text Label 7500 1800 0    60   ~
+JTAG-TRST
+Wire Wire Line
+	8200 2000 7500 2000
+Wire Wire Line
+	8200 1800 7500 1800
+Wire Wire Line
+	3100 4700 3100 4800
+Connection ~ 7800 2300
+Wire Wire Line
+	7800 2300 7800 4550
+Wire Wire Line
+	4600 2650 6550 2650
+Wire Wire Line
+	5700 5400 5700 5300
+Wire Wire Line
+	5700 5300 5800 5300
+Wire Wire Line
+	4700 5200 4600 5200
+Wire Wire Line
+	4600 4900 4700 4900
+Wire Wire Line
+	5100 5200 5200 5200
+Wire Wire Line
+	5700 4900 5800 4900
+Wire Wire Line
+	8100 2450 8100 2100
+Wire Wire Line
+	8100 2100 8200 2100
+Connection ~ 7800 5100
+Wire Wire Line
+	7000 5100 7800 5100
+Wire Wire Line
+	3700 2850 3700 2900
+Connection ~ 4500 3450
+Wire Wire Line
+	4500 4300 4500 3450
+Wire Wire Line
+	4500 2550 4500 2650
+Wire Wire Line
+	4400 3450 4800 3450
+Wire Wire Line
+	6050 3650 6050 3700
+Wire Wire Line
+	5700 3650 5700 3700
+Connection ~ 7100 4300
+Wire Wire Line
+	7100 3750 7100 4400
+Connection ~ 7100 5300
+Wire Wire Line
+	7100 5350 7100 4800
+Wire Wire Line
+	7100 4300 7000 4300
+Wire Wire Line
+	7100 4400 7000 4400
+Wire Wire Line
+	7100 5300 7000 5300
+Wire Wire Line
+	7100 5900 7100 5850
+Wire Wire Line
+	7300 3750 7300 3800
+Wire Wire Line
+	5700 3250 6050 3250
+Wire Wire Line
+	6050 3250 6050 3200
+Wire Wire Line
+	4700 3850 4700 3900
+Wire Wire Line
+	4300 2650 4400 2650
+Wire Wire Line
+	6550 2650 6550 3950
+Wire Wire Line
+	6550 3950 7100 3950
+Connection ~ 7100 3950
+Wire Wire Line
+	5800 4400 5800 4300
+Wire Wire Line
+	3700 2650 3900 2650
+Wire Wire Line
+	7800 5850 7800 5900
+Wire Wire Line
+	8200 2200 8100 2200
+Connection ~ 8100 2200
+Wire Wire Line
+	5800 5200 5700 5200
+Wire Wire Line
+	5200 4900 5100 4900
+Wire Wire Line
+	4600 5200 4600 4800
+Connection ~ 4600 4900
+Wire Wire Line
+	3100 2300 3100 4300
+Wire Wire Line
+	3100 2300 8200 2300
+Wire Wire Line
+	7800 5050 7800 5350
+Wire Wire Line
+	3100 4300 5800 4300
+Connection ~ 4500 4300
+Wire Wire Line
+	8200 1900 7500 1900
+$Comp
+L GND #PWR?
+U 1 1 4B8521F6
+P 3100 4800
+F 0 "#PWR?" H 3100 4800 30  0001 C C
+F 1 "GND" H 3100 4730 30  0001 C C
+	1    3100 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4B852147
+P 5700 5400
+F 0 "#PWR?" H 5700 5400 30  0001 C C
+F 1 "GND" H 5700 5330 30  0001 C C
+	1    5700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4B852137
+P 4600 4800
+F 0 "#PWR?" H 4600 4900 30  0001 C C
+F 1 "VCC" H 4600 4900 30  0000 C C
+	1    4600 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4B852091
+P 8100 2450
+F 0 "#PWR?" H 8100 2450 30  0001 C C
+F 1 "GND" H 8100 2380 30  0001 C C
+	1    8100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4B852072
+P 7800 5900
+F 0 "#PWR?" H 7800 5900 30  0001 C C
+F 1 "GND" H 7800 5830 30  0001 C C
+	1    7800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4B851F90
+P 3700 2900
+F 0 "#PWR?" H 3700 2900 30  0001 C C
+F 1 "GND" H 3700 2830 30  0001 C C
+	1    3700 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 4B851EF2
+P 4500 2550
+F 0 "#PWR?" H 4500 2640 20  0001 C C
+F 1 "+5V" H 4500 2640 30  0000 C C
+	1    4500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4B851E87
+P 4700 3900
+F 0 "#PWR?" H 4700 3900 30  0001 C C
+F 1 "GND" H 4700 3830 30  0001 C C
+	1    4700 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 4B851E45
+P 6050 3200
+F 0 "#PWR?" H 6050 3300 30  0001 C C
+F 1 "VCC" H 6050 3300 30  0000 C C
+	1    6050 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4B851DFB
+P 6050 3450
+F 0 "C?" H 6100 3550 50  0000 L C
+F 1 "10uF" H 6100 3350 50  0000 L C
+	1    6050 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4B851DDB
+P 6050 3700
+F 0 "#PWR?" H 6050 3700 30  0001 C C
+F 1 "GND" H 6050 3630 30  0001 C C
+	1    6050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4B851DB2
+P 5700 3700
+F 0 "#PWR?" H 5700 3700 30  0001 C C
+F 1 "GND" H 5700 3630 30  0001 C C
+	1    5700 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P?
+U 1 1 4B851D92
+P 8550 2050
+F 0 "P?" V 8500 2050 60  0000 C C
+F 1 "CONN_6" V 8600 2050 60  0000 C C
+	1    8550 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4B851D68
+P 7300 3800
+F 0 "#PWR?" H 7300 3800 30  0001 C C
+F 1 "GND" H 7300 3730 30  0001 C C
+	1    7300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4B851D16
+P 7100 5900
+F 0 "#PWR?" H 7100 5900 30  0001 C C
+F 1 "GND" H 7100 5830 30  0001 C C
+	1    7100 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_3X2 P?
+U 1 1 4B851C1C
+P 4450 3050
+F 0 "P?" H 4450 3300 50  0000 C C
+F 1 "CONN_3X2" V 4450 3100 40  0000 C C
+	1    4450 3050
+	0    1    -1   0   
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 4B851C07
+P 3350 2750
+F 0 "P?" V 3300 2750 40  0000 C C
+F 1 "CONN_2" V 3400 2750 40  0000 C C
+	1    3350 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_2 P?
+U 1 1 4B851C01
+P 7200 3400
+F 0 "P?" V 7150 3400 40  0000 C C
+F 1 "CONN_2" V 7250 3400 40  0000 C C
+	1    7200 3400
+	0    1    -1   0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4B851BBF
+P 4100 2650
+F 0 "D?" H 4100 2750 40  0000 C C
+F 1 "DIODE" H 4100 2550 40  0000 C C
+	1    4100 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4B851B54
+P 4900 5200
+F 0 "D?" H 4900 5300 50  0000 C C
+F 1 "Green" H 4900 5100 50  0000 C C
+	1    4900 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 4B851B4D
+P 4900 4900
+F 0 "D?" H 4900 5000 50  0000 C C
+F 1 "Red" H 4900 4800 50  0000 C C
+	1    4900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C?
+U 1 1 4B851B2A
+P 4700 3650
+F 0 "C?" H 4750 3750 50  0000 L C
+F 1 "47uF" H 4750 3550 50  0000 L C
+	1    4700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4B851B1B
+P 7100 4600
+F 0 "C?" H 7150 4700 50  0000 L C
+F 1 "0.1uF" H 7150 4500 50  0000 L C
+	1    7100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4B851B00
+P 3100 4500
+F 0 "C?" H 3150 4600 50  0000 L C
+F 1 "0.1uF" H 3150 4400 50  0000 L C
+	1    3100 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4B851ABF
+P 5450 4900
+F 0 "R?" V 5530 4900 50  0000 C C
+F 1 "1k" V 5450 4900 50  0000 C C
+	1    5450 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4B851ABB
+P 5450 5200
+F 0 "R?" V 5530 5200 50  0000 C C
+F 1 "1k" V 5450 5200 50  0000 C C
+	1    5450 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4B851AAA
+P 7100 5600
+F 0 "R?" V 7180 5600 50  0000 C C
+F 1 "1k" V 7100 5600 50  0000 C C
+	1    7100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4B851AA2
+P 7800 5600
+F 0 "R?" V 7880 5600 50  0000 C C
+F 1 "10k" V 7800 5600 50  0000 C C
+	1    7800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4B851A8E
+P 7800 4800
+F 0 "R?" V 7880 4800 50  0000 C C
+F 1 "10k" V 7800 4800 50  0000 C C
+	1    7800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L BQ24010DRC BQ24010DRC?
+U 1 1 4B851A6D
+P 6400 4700
+F 0 "BQ24010DRC?" H 6400 4700 60  0000 C C
+F 1 "BQ24010DRC" H 6400 4850 60  0001 C C
+	1    6400 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP1700T MCP1700T?
+U 1 1 4B851A69
+P 5300 3450
+F 0 "MCP1700T?" H 5250 3800 60  0000 C C
+F 1 "MCP1700T" H 5250 3100 60  0001 C C
+	1    5300 3450
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
