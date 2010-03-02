@@ -3,7 +3,7 @@ LIBS:power,/home/jessb/kicad/libraries/jessb,/home/jessb/kicad/libraries/okie,de
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 4
+Sheet 1 5
 Title "noname.sch"
 Date "22 feb 2010"
 Rev ""
@@ -13,6 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Sheet
+S 6700 1750 1400 1100
+U 4B8AC408
+F0 "STM32b" 60
+F1 "STM32b.sch" 60
+$EndSheet
 $Sheet
 S 6700 3150 1400 1050
 U 4B852400
