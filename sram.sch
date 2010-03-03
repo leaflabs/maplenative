@@ -13,4 +13,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L IS62WV51216ALL U?
+U 1 1 4B8AFC40
+P 5600 3550
+F 0 "U?" H 4800 4850 60  0000 C C
+F 1 "IS62WV51216ALL" H 5650 3550 60  0000 C C
+	1    5600 3550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
