@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 5
 Title "noname.sch"
-Date "22 feb 2010"
+Date "5 mar 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -14,22 +14,22 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
+S 5050 3150 1400 1050
+U 4B91426B
+F0 "conn" 60
+F1 "conn.sch" 60
+$EndSheet
+$Sheet
 S 6700 1750 1400 1100
-U 4B8AC408
-F0 "STM32b" 60
-F1 "STM32b.sch" 60
+U 4B8B0B59
+F0 "pwr" 60
+F1 "pwr.sch" 60
 $EndSheet
 $Sheet
 S 6700 3150 1400 1050
 U 4B852400
 F0 "sram" 60
 F1 "sram.sch" 60
-$EndSheet
-$Sheet
-S 5050 3150 1400 1050
-U 4B8375D0
-F0 "bat" 60
-F1 "bat.sch" 60
 $EndSheet
 $Sheet
 S 5050 1750 1400 1100
