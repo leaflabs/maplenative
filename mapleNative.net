@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  11/3/2010-10:11:31
+# EESchema Netlist Version 1.1 created  14/3/2010-22:26:24
 (
  ( /4B91426B/4B915992 $noname  P8 CONN_36 {Lib=CONN_36}
   (    1 GND )
@@ -128,32 +128,37 @@
   (    7 VCC )
   (    8 N-000118 )
  )
- ( /4B8B0B59/4B9446B8 $noname  PWR_JACK1 PWR_JACK {Lib=PWR_JACK}
-  (    1 N-000127 )
-  (    2 GND )
- )
- ( /4B8B0B59/4B918730 $noname  P2 CONN_4X2 {Lib=CONN_4X2}
-  (    1 N-000136 )
-  (    2 N-000124 )
-  (    3 N-000136 )
-  (    4 N-000134 )
-  (    5 N-000136 )
-  (    6 +5V )
-  (    7 N-000136 )
-  (    8 N-000128 )
- )
- ( /4B8B0B59/4B91872D $noname  C21 47uF {Lib=CP}
+ ( /4B8B0B59/4B98D407 $noname  C21 CP {Lib=CP}
   (    1 VAA )
   (    2 GND )
  )
- ( /4B8B0B59/4B91872C $noname  C22 47uF {Lib=CP}
+ ( /4B8B0B59/4B98D404 $noname  C22 47uF {Lib=CP}
   (    1 VCC )
   (    2 GND )
+ )
+ ( /4B8B0B59/4B98D3FE $noname  C20 47uF {Lib=CP}
+  (    1 N-000135 )
+  (    2 GND )
+ )
+ ( /4B8B0B59/4B9446B8 $noname  PWR_JACK1 PWR_JACK {Lib=PWR_JACK}
+  (  PWR N-000127 )
+  (  GND GND )
+  ( GNDB GND )
+ )
+ ( /4B8B0B59/4B918730 $noname  P2 CONN_4X2 {Lib=CONN_4X2}
+  (    1 N-000135 )
+  (    2 N-000124 )
+  (    3 N-000135 )
+  (    4 N-000134 )
+  (    5 N-000135 )
+  (    6 +5V )
+  (    7 N-000135 )
+  (    8 N-000128 )
  )
  ( /4B8B0B59/4B91872B $noname  MCP1 MCP1700T {Lib=MCP1700T}
   (    1 GND )
   (    2 VAA )
-  (    3 N-000136 )
+  (    3 N-000135 )
  )
  ( /4B8B0B59/4B918720 $noname  P4 CONN_6 {Lib=CONN_6}
   (    1 N-000118 )
@@ -161,7 +166,7 @@
   (    3 VAA )
   (    4 GND )
   (    5 GND )
-  (    6 N-000136 )
+  (    6 N-000135 )
  )
  ( /4B8B0B59/4B91871D $noname  P1 CONN_2 {Lib=CONN_2}
   (    1 GND )
@@ -172,8 +177,8 @@
   (    2 N-000134 )
  )
  ( /4B8B0B59/4B91871B $noname  D1 DIODE {Lib=DIODE}
-  (    1 N-000127 )
-  (    2 N-000128 )
+  (    C N-000128 )
+  (    A N-000127 )
  )
  ( /4B8B0B59/4B91871A $noname  D3 Green {Lib=LED}
   (    1 VCC )
@@ -183,16 +188,12 @@
   (    1 VCC )
   (    2 N-000125 )
  )
- ( /4B8B0B59/4B918718 $noname  C20 47uF {Lib=CP}
-  (    1 N-000136 )
-  (    2 GND )
- )
  ( /4B8B0B59/4B918717 $noname  C23 0.1uF {Lib=C}
   (    1 N-000134 )
   (    2 N-000129 )
  )
  ( /4B8B0B59/4B918716 $noname  C17 0.1uF {Lib=C}
-  (    1 N-000136 )
+  (    1 N-000135 )
   (    2 GND )
  )
  ( /4B8B0B59/4B918715 $noname  R13 1k {Lib=R}
@@ -212,25 +213,25 @@
   (    2 GND )
  )
  ( /4B8B0B59/4B918711 $noname  R16 10k {Lib=R}
-  (    1 N-000136 )
+  (    1 N-000135 )
   (    2 N-000131 )
  )
  ( /4B8B0B59/4B918710 $noname  BQ1 BQ24010DRC {Lib=BQ24010DRC}
-  (  P$6 N-000129 )
-  (  P$7 ? )
-  (  P$8 N-000131 )
-  (  P$9 N-000134 )
-  ( P$10 N-000134 )
-  (  P$5 GND )
-  (  P$4 N-000126 )
-  (  P$3 N-000132 )
-  (  P$2 N-000124 )
-  (  P$1 N-000124 )
+  (    1 N-000124 )
+  (    2 N-000124 )
+  (    3 N-000132 )
+  (    4 N-000126 )
+  (    5 GND )
+  (    6 N-000129 )
+  (    7 ? )
+  (    8 N-000131 )
+  (    9 N-000134 )
+  (   10 N-000134 )
  )
  ( /4B8B0B59/4B91870F $noname  MCP2 MCP1700T {Lib=MCP1700T}
   (    1 GND )
   (    2 VCC )
-  (    3 N-000136 )
+  (    3 N-000135 )
  )
  ( /4B8B0B59/4B915D09 $noname  R5 10k {Lib=R}
   (    1 /pwr/USB_P )
@@ -240,14 +241,14 @@
   (    1 +5V )
   (    2 /pwr/USB_P )
  )
- ( /4B8B0B59/4B915D06 $noname  R8 R {Lib=R}
+ ( /4B8B0B59/4B915D06 $noname  R8 10k {Lib=R}
   (    1 +5V )
   (    2 N-000122 )
  )
  ( /4B8B0B59/4B915D04 $noname  Q2 NPN {Lib=NPN}
-  (    1 N-000123 )
-  (    2 N-000122 )
-  (    3 VCC )
+  (    1 N-000122 )
+  (    2 VCC )
+  (    3 N-000123 )
  )
  ( /4B8B0B59/4B915D03 $noname  R12 1.5k {Lib=R}
   (    1 N-000123 )
@@ -266,25 +267,25 @@
   (    2 ? )
  )
  ( /4B8B0B59/4B915CFE $noname  Q1 NPN {Lib=NPN}
-  (    1 GND )
-  (    2 N-000121 )
-  (    3 N-000122 )
+  (    1 N-000121 )
+  (    2 N-000122 )
+  (    3 GND )
  )
  ( /4B8B0B59/4B915CFA $noname  R10 22 {Lib=R}
   (    1 N-000112 )
-  (    2 ? )
+  (    2 /pwr/USBDP )
  )
  ( /4B8B0B59/4B915CF9 $noname  R9 22 {Lib=R}
   (    1 N-000002 )
-  (    2 ? )
+  (    2 /pwr/USBDM )
  )
  ( /4B8B0B59/4B915CF6 $noname  USB1 USB {Lib=USB}
-  (   D+ ? )
-  (   D- ? )
-  ( VBUS ? )
+  (   D+ /pwr/USBDP )
+  (   D- /pwr/USBDM )
+  ( VBUS +5V )
   (  GND GND )
  )
- ( /4B8B0B59/4B915CF5 $noname  C13 47pF {Lib=C}
+ ( /4B8B0B59/4B915CF5 $noname  C12 47pF {Lib=C}
   (    1 N-000112 )
   (    2 GND )
  )
@@ -316,7 +317,7 @@
   (    1 VCC )
   (    2 GND )
  )
- ( /4B8B0B59/4B8B0BF9 $noname  C12 0.1uF {Lib=C}
+ ( /4B8B0B59/4B8B0BF9 $noname  C13 0.1uF {Lib=C}
   (    1 VCC )
   (    2 GND )
  )
@@ -544,7 +545,8 @@
   (  144 VCC )
  )
  ( /4B837477/4B8383C6 $noname  OSC1 8Mhz {Lib=OSC}
-  (    ~ N-000116 )
+  (    1 N-000116 )
+  (    3 N-000117 )
  )
  ( /4B837477/4B837589 $noname  BUT2 BUT {Lib=BUT}
   (  P$4 VCC )
@@ -585,13 +587,13 @@ $component C22
  CP*
  SM*
 $endlist
-$component D1
- D?
- S*
-$endlist
 $component C20
  CP*
  SM*
+$endlist
+$component D1
+ D?
+ S*
 $endlist
 $component C23
  SM*
@@ -673,7 +675,7 @@ $component R9
  SM0603
  SM0805
 $endlist
-$component C13
+$component C12
  SM*
  C?
  C1-1
@@ -713,7 +715,7 @@ $component C14
  C?
  C1-1
 $endlist
-$component C12
+$component C13
  SM*
  C?
  C1-1
@@ -810,25 +812,26 @@ Net 1 "GND"
  C3 2
  U2 34
  U2 12
- PWR_JACK1 2
  C21 2
  C22 2
+ C20 2
+ PWR_JACK1 GND
+ PWR_JACK1 GNDB
  MCP1 1
  P4 5
  P4 4
  P1 1
  P3 1
- C20 2
  C17 2
  R15 2
  R17 2
- BQ1 P$5
+ BQ1 5
  MCP2 1
  R5 2
  R11 2
- Q1 1
+ Q1 3
  USB1 GND
- C13 2
+ C12 2
  C11 2
  C19 2
  C18 2
@@ -836,7 +839,7 @@ Net 1 "GND"
  C15 2
  C10 2
  C14 2
- C12 2
+ C13 2
  C9 2
  C8 2
  C5 2
@@ -1239,7 +1242,7 @@ Net 112 ""
  U1 104
  R12 2
  R10 1
- C13 1
+ C12 1
 Net 113 "VCC"
  U1 6
  U1 72
@@ -1266,14 +1269,14 @@ Net 113 "VCC"
  D3 1
  D2 1
  MCP2 2
- Q2 3
+ Q2 2
  R7 1
  C18 1
  C16 1
  C15 1
  C10 1
  C14 1
- C12 1
+ C13 1
  C9 1
  C8 1
  C5 1
@@ -1288,11 +1291,11 @@ Net 113 "VCC"
  R2 2
 Net 116 ""
  U1 23
- OSC1 ~
+ OSC1 1
  C1 1
 Net 117 ""
  U1 24
- OSC1 ~
+ OSC1 3
  C2 1
 Net 118 ""
  P4 1
@@ -1304,47 +1307,48 @@ Net 118 ""
 Net 121 ""
  R7 2
  R6 1
- Q1 2
+ Q1 1
 Net 122 ""
  R8 2
- Q2 2
- R11 1
- Q1 3
-Net 123 ""
  Q2 1
+ R11 1
+ Q1 2
+Net 123 ""
+ Q2 3
  R12 1
 Net 124 ""
  P2 2
- BQ1 P$2
- BQ1 P$1
+ BQ1 2
+ BQ1 1
 Net 125 ""
  D2 2
  R13 2
 Net 126 ""
  R14 1
- BQ1 P$4
+ BQ1 4
 Net 127 ""
- PWR_JACK1 1
+ PWR_JACK1 PWR
  P1 2
- D1 1
+ D1 A
 Net 128 ""
  P2 8
- D1 2
+ D1 C
 Net 129 ""
  C23 2
  R15 1
- BQ1 P$6
+ BQ1 6
 Net 130 "+5V"
  P2 6
  R4 1
  R8 1
+ USB1 VBUS
 Net 131 ""
  R17 1
  R16 2
- BQ1 P$8
+ BQ1 8
 Net 132 ""
  R13 1
- BQ1 P$3
+ BQ1 3
 Net 133 ""
  D3 2
  R14 2
@@ -1352,18 +1356,24 @@ Net 134 ""
  P2 4
  P3 2
  C23 1
- BQ1 P$9
- BQ1 P$10
-Net 136 ""
+ BQ1 9
+ BQ1 10
+Net 135 ""
+ C20 1
  P2 7
  P2 5
  P2 3
  P2 1
  MCP1 3
  P4 6
- C20 1
  C17 1
  R16 1
  MCP2 3
+/pwr/Net 137 "USBDP"
+ R10 2
+ USB1 D+
+/pwr/Net 138 "USBDM"
+ R9 2
+ USB1 D-
 }
 #End
