@@ -492,67 +492,67 @@ Text GLabel 8900 2950 2    60   BiDi
 Text GLabel 8900 2850 2    60   BiDi
 FSMC_D3
 Text GLabel 8900 2550 2    60   BiDi
-39
-Text GLabel 8900 2450 2    60   BiDi
-38
-Text GLabel 8900 2350 2    60   BiDi
-37
-Text GLabel 8900 2250 2    60   BiDi
-36
-Text GLabel 8900 2150 2    60   BiDi
-35
-Text GLabel 8900 2050 2    60   BiDi
-34
-Text GLabel 8900 1950 2    60   BiDi
-33
-Text GLabel 8900 1850 2    60   BiDi
-32
-Text GLabel 2750 5950 0    60   BiDi
-31
-Text GLabel 2750 5850 0    60   BiDi
-30
-Text GLabel 2750 5750 0    60   BiDi
-29
-Text GLabel 2750 5650 0    60   BiDi
-28
-Text GLabel 2750 5550 0    60   BiDi
-27
-Text GLabel 2750 5450 0    60   BiDi
-26
-Text GLabel 2750 5350 0    60   BiDi
 25
-Text GLabel 2750 5250 0    60   BiDi
+Text GLabel 8900 2450 2    60   BiDi
 24
-Text GLabel 2750 5050 0    60   BiDi
+Text GLabel 8900 2350 2    60   BiDi
 23
-Text GLabel 2750 4950 0    60   BiDi
+Text GLabel 8900 2250 2    60   BiDi
 22
-Text GLabel 2750 4850 0    60   BiDi
+Text GLabel 8900 2150 2    60   BiDi
 21
-Text GLabel 2750 4750 0    60   BiDi
+Text GLabel 8900 2050 2    60   BiDi
 20
-Text GLabel 2750 4650 0    60   BiDi
+Text GLabel 8900 1950 2    60   BiDi
 19
-Text GLabel 2750 4550 0    60   BiDi
+Text GLabel 8900 1850 2    60   BiDi
 18
-Text GLabel 2750 4450 0    60   BiDi
+Text GLabel 2750 5950 0    60   BiDi
 17
-Text GLabel 2750 4350 0    60   BiDi
+Text GLabel 2750 5850 0    60   BiDi
 16
-Text GLabel 2750 4250 0    60   BiDi
+Text GLabel 2750 5750 0    60   BiDi
 15
-Text GLabel 2750 4150 0    60   BiDi
+Text GLabel 2750 5650 0    60   BiDi
 14
-Text GLabel 2750 4050 0    60   BiDi
+Text GLabel 2750 5550 0    60   BiDi
 13
-Text GLabel 2750 3650 0    60   BiDi
+Text GLabel 2750 5450 0    60   BiDi
 12
+Text GLabel 2750 5350 0    60   BiDi
+11
+Text GLabel 2750 5250 0    60   BiDi
+10
+Text GLabel 2750 5050 0    60   BiDi
+39
+Text GLabel 2750 4950 0    60   BiDi
+38
+Text GLabel 2750 4850 0    60   BiDi
+37
+Text GLabel 2750 4750 0    60   BiDi
+36
+Text GLabel 2750 4650 0    60   BiDi
+35
+Text GLabel 2750 4550 0    60   BiDi
+34
+Text GLabel 2750 4450 0    60   BiDi
+33
+Text GLabel 2750 4350 0    60   BiDi
+32
+Text GLabel 2750 4250 0    60   BiDi
+31
+Text GLabel 2750 4150 0    60   BiDi
+30
+Text GLabel 2750 4050 0    60   BiDi
+29
+Text GLabel 2750 3650 0    60   BiDi
+28
 Text GLabel 2750 1850 0    60   BiDi
 0
 Text GLabel 2750 3550 0    60   BiDi
-11
+27
 Text GLabel 2750 2850 0    60   BiDi
-10
+26
 Text GLabel 2750 2750 0    60   BiDi
 9
 Text GLabel 2750 2650 0    60   BiDi
