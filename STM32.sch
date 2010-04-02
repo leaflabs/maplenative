@@ -54,13 +54,13 @@ Wire Wire Line
 Wire Wire Line
 	8800 4650 8900 4650
 Wire Wire Line
-	2750 5850 2850 5850
+	2750 5750 2850 5750
 Wire Wire Line
-	2750 5650 2850 5650
+	2750 5550 2850 5550
 Wire Wire Line
-	2750 5450 2850 5450
+	2750 5350 2850 5350
 Wire Wire Line
-	2750 5250 2850 5250
+	2750 2850 2850 2850
 Wire Wire Line
 	2750 4950 2850 4950
 Wire Wire Line
@@ -74,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 3650 2850 3650
 Wire Wire Line
-	2750 2850 2850 2850
+	8800 2550 8900 2550
 Wire Wire Line
 	2750 2650 2850 2650
 Wire Wire Line
@@ -86,13 +86,13 @@ Wire Wire Line
 Wire Wire Line
 	2750 1850 2850 1850
 Wire Wire Line
-	8900 2450 8800 2450
+	8900 2350 8800 2350
 Wire Wire Line
-	8900 2250 8800 2250
+	8900 2150 8800 2150
 Wire Wire Line
-	8900 2050 8800 2050
+	8900 1950 8800 1950
 Wire Wire Line
-	8900 1850 8800 1850
+	2850 5950 2750 5950
 Wire Wire Line
 	8900 5850 8800 5850
 Wire Wire Line
@@ -322,11 +322,11 @@ Wire Wire Line
 Wire Wire Line
 	8900 5950 8800 5950
 Wire Wire Line
-	8900 2150 8800 2150
+	8900 2050 8800 2050
 Wire Wire Line
-	8900 2350 8800 2350
+	8900 2250 8800 2250
 Wire Wire Line
-	8900 2550 8800 2550
+	8900 2450 8800 2450
 Wire Wire Line
 	2750 1950 2850 1950
 Wire Wire Line
@@ -352,19 +352,19 @@ Wire Wire Line
 Wire Wire Line
 	2750 5050 2850 5050
 Wire Wire Line
-	2750 5350 2850 5350
+	2750 5250 2850 5250
 Wire Wire Line
-	2750 5550 2850 5550
+	2750 5450 2850 5450
 Wire Wire Line
-	2750 5750 2850 5750
+	2750 5650 2850 5650
 Wire Wire Line
-	2750 5950 2850 5950
+	2750 5850 2850 5850
 Wire Wire Line
 	8800 4750 8900 4750
 Wire Wire Line
 	8800 4950 8900 4950
 Wire Wire Line
-	8800 1950 8900 1950
+	8800 1850 8900 1850
 Wire Wire Line
 	2750 3250 2850 3250
 Wire Wire Line
@@ -491,37 +491,37 @@ Text GLabel 8900 2950 2    60   BiDi
 40
 Text GLabel 8900 2850 2    60   BiDi
 FSMC_D3
-Text GLabel 8900 2550 2    60   BiDi
-25
 Text GLabel 8900 2450 2    60   BiDi
-24
+25
 Text GLabel 8900 2350 2    60   BiDi
-23
+24
 Text GLabel 8900 2250 2    60   BiDi
-22
+23
 Text GLabel 8900 2150 2    60   BiDi
-21
+22
 Text GLabel 8900 2050 2    60   BiDi
-20
+21
 Text GLabel 8900 1950 2    60   BiDi
-19
+20
 Text GLabel 8900 1850 2    60   BiDi
-18
+19
 Text GLabel 2750 5950 0    60   BiDi
-17
+18
 Text GLabel 2750 5850 0    60   BiDi
-16
+17
 Text GLabel 2750 5750 0    60   BiDi
-15
+16
 Text GLabel 2750 5650 0    60   BiDi
-14
+15
 Text GLabel 2750 5550 0    60   BiDi
-13
+14
 Text GLabel 2750 5450 0    60   BiDi
-12
+13
 Text GLabel 2750 5350 0    60   BiDi
-11
+12
 Text GLabel 2750 5250 0    60   BiDi
+11
+Text GLabel 2750 2850 0    60   BiDi
 10
 Text GLabel 2750 5050 0    60   BiDi
 39
@@ -551,7 +551,7 @@ Text GLabel 2750 1850 0    60   BiDi
 0
 Text GLabel 2750 3550 0    60   BiDi
 27
-Text GLabel 2750 2850 0    60   BiDi
+Text GLabel 8900 2550 2    60   BiDi
 26
 Text GLabel 2750 2750 0    60   BiDi
 9
