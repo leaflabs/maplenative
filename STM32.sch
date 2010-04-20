@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 5 5
 Title ""
-Date "11 mar 2010"
+Date "8 apr 2010"
 Rev ""
 Comp ""
 Comment1 ""
@@ -13,18 +13,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Kmarq B 5150 1450 "Warning: Pin power_out connected to Pin BiDi (net 113)" F=1
-Kmarq B 4550 1450 "Warning: Pin power_out connected to Pin BiDi (net 56)" F=1
-Kmarq B 7450 1450 "Warning: Pin power_out connected to Pin BiDi (net 1)" F=1
 $Comp
-L PWR_FLAG #FLG041
-U 1 1 4B979346
-P 7450 1450
-F 0 "#FLG041" H 7450 1720 30  0001 C C
-F 1 "PWR_FLAG" H 7450 1680 30  0000 C C
-	1    7450 1450
+L GND #PWR043
+U 1 1 4BBE4414
+P 10350 1950
+F 0 "#PWR043" H 10350 1950 30  0001 C C
+F 1 "GND" H 10350 1880 30  0001 C C
+	1    10350 1950
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10350 1950 10350 1850
+Wire Wire Line
+	10350 1850 10250 1850
+Connection ~ 9850 2550
+Wire Wire Line
+	9850 2450 9850 2550
+Wire Wire Line
+	4650 1450 4750 1450
 Wire Wire Line
 	2850 3750 1950 3750
 Connection ~ 5150 1450
@@ -74,8 +80,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 3650 2850 3650
 Wire Wire Line
-	8800 2550 8900 2550
-Wire Wire Line
 	2750 2650 2850 2650
 Wire Wire Line
 	2750 2450 2850 2450
@@ -124,9 +128,9 @@ Wire Wire Line
 Wire Wire Line
 	7250 6350 7250 6250
 Wire Wire Line
-	7050 6350 7050 6250
+	5350 6350 5350 6250
 Wire Wire Line
-	6850 6350 6850 6250
+	4950 6350 4950 6250
 Wire Wire Line
 	6550 6350 6550 6250
 Wire Wire Line
@@ -140,13 +144,13 @@ Wire Wire Line
 Wire Wire Line
 	5550 6250 5550 6350
 Wire Wire Line
-	5350 6250 5350 6350
+	6650 6250 6650 6350
 Wire Wire Line
 	5150 6250 5150 6350
 Wire Wire Line
-	4950 6250 4950 6350
+	7150 6250 7150 6350
 Wire Wire Line
-	4750 6250 4750 6350
+	6950 6250 6950 6350
 Wire Wire Line
 	4550 6250 4550 6350
 Connection ~ 3800 6350
@@ -220,8 +224,6 @@ Wire Wire Line
 Wire Wire Line
 	7850 700  7850 1550
 Wire Wire Line
-	7750 900  7750 1550
-Wire Wire Line
 	7350 1550 7350 1450
 Connection ~ 7350 1450
 Wire Wire Line
@@ -250,7 +252,7 @@ Connection ~ 6250 1450
 Wire Wire Line
 	4650 1450 4650 1550
 Wire Wire Line
-	4750 1550 4750 1450
+	4750 1450 4750 1550
 Wire Wire Line
 	6450 1450 7450 1450
 Connection ~ 4900 1450
@@ -258,15 +260,15 @@ Wire Wire Line
 	3300 6750 3800 6750
 Connection ~ 3700 6750
 Wire Wire Line
-	4650 6250 4650 6350
+	6850 6250 6850 6350
 Wire Wire Line
-	4850 6250 4850 6350
+	7050 6250 7050 6350
 Wire Wire Line
 	5050 6250 5050 6350
 Wire Wire Line
-	5250 6250 5250 6350
+	4650 6250 4650 6350
 Wire Wire Line
-	5450 6250 5450 6350
+	6750 6250 6750 6350
 Wire Wire Line
 	5650 6250 5650 6350
 Wire Wire Line
@@ -276,13 +278,13 @@ Wire Wire Line
 Wire Wire Line
 	6350 6350 6350 6250
 Wire Wire Line
-	6650 6350 6650 6250
+	4750 6350 4750 6250
 Wire Wire Line
-	6750 6350 6750 6250
+	4850 6350 4850 6250
 Wire Wire Line
-	6950 6350 6950 6250
+	5250 6350 5250 6250
 Wire Wire Line
-	7150 6350 7150 6250
+	5450 6350 5450 6250
 Wire Wire Line
 	7350 6350 7350 6250
 Wire Wire Line
@@ -380,31 +382,55 @@ Wire Wire Line
 	6250 1450 5050 1450
 Connection ~ 5750 1450
 Wire Wire Line
-	4750 1450 4550 1450
-Connection ~ 4650 1450
-Wire Wire Line
 	1950 3750 1950 3850
+Wire Wire Line
+	7750 1550 7750 1450
+Wire Wire Line
+	8800 2550 10350 2550
+Wire Wire Line
+	9850 1950 9850 1850
 $Comp
-L PWR_FLAG #FLG042
-U 1 1 4B97926B
-P 4550 1450
-F 0 "#FLG042" H 4550 1720 30  0001 C C
-F 1 "PWR_FLAG" H 4550 1680 30  0000 C C
-	1    4550 1450
+L LED D4
+U 1 1 4BBE43DA
+P 10050 1850
+F 0 "D4" H 10050 1950 50  0000 C C
+F 1 "LED" H 10050 1750 50  0000 C C
+	1    10050 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG043
-U 1 1 4B979260
-P 5150 1450
-F 0 "#FLG043" H 5150 1720 30  0001 C C
-F 1 "PWR_FLAG" H 5150 1680 30  0000 C C
-	1    5150 1450
-	1    0    0    -1  
+L R R18
+U 1 1 4BBE4342
+P 9850 2200
+F 0 "R18" V 9930 2200 50  0000 C C
+F 1 "1k" V 9850 2200 50  0000 C C
+	1    9850 2200
+	-1   0    0    1   
 $EndComp
+$Comp
+L BUT BUT2
+U 1 1 4BB523D5
+P 3700 6550
+F 0 "BUT2" H 3700 6800 60  0000 C C
+F 1 "BUT" H 3700 6800 60  0001 C C
+	1    3700 6550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L BUT BUT1
+U 1 1 4BB523CB
+P 1050 7000
+F 0 "BUT1" H 1050 7250 60  0000 C C
+F 1 "BUT" H 1050 7250 60  0001 C C
+	1    1050 7000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 7750 1450 3    60   BiDi
+JTAG-TRST
+Kmarq B 6250 1550 "Warning Pin power_in not driven (Net 1)" F=1
 $Comp
 L STM32F103ZE U1
-U 1 1 4B91858F
+U 1 1 4BB13396
 P 5750 3600
 F 0 "U1" H 3100 5500 60  0000 C C
 F 1 "STM32F103ZE" H 5750 3600 60  0000 C C
@@ -434,7 +460,7 @@ USB_DP
 Text GLabel 2750 2950 0    60   BiDi
 USB_DM
 Text GLabel 2750 3950 0    60   BiDi
-JTAG_TRST
+JTAG-TRST
 Text GLabel 2750 3850 0    60   BiDi
 JTAG-TDO
 Text GLabel 2750 3350 0    60   BiDi
@@ -443,46 +469,46 @@ Text GLabel 2750 3250 0    60   BiDi
 JTAG-TCK
 Text GLabel 2750 3150 0    60   BiDi
 JTAG-TMS
-Text GLabel 4650 6350 1    60   BiDi
-62
-Text GLabel 4750 6350 1    60   BiDi
-61
-Text GLabel 4850 6350 1    60   BiDi
-60
-Text GLabel 4950 6350 1    60   BiDi
-59
+Text GLabel 6850 6350 1    60   BiDi
+46
+Text GLabel 6950 6350 1    60   BiDi
+45
+Text GLabel 7050 6350 1    60   BiDi
+44
+Text GLabel 7150 6350 1    60   BiDi
+43
 Text GLabel 5150 6350 1    60   BiDi
-58
-Text GLabel 5250 6350 1    60   BiDi
-57
-Text GLabel 5350 6350 1    60   BiDi
-56
-Text GLabel 5450 6350 1    60   BiDi
+FSMC_NE2
+Text GLabel 4650 6350 1    60   BiDi
 55
 Text GLabel 6650 6350 1    60   BiDi
-54
-Text GLabel 6750 6350 1    60   BiDi
-53
-Text GLabel 6850 6350 1    60   BiDi
-52
-Text GLabel 6950 6350 1    60   BiDi
-51
-Text GLabel 7050 6350 1    60   BiDi
-50
-Text GLabel 7150 6350 1    60   BiDi
-49
-Text GLabel 8900 5050 2    60   BiDi
 48
-Text GLabel 8900 4950 2    60   BiDi
+Text GLabel 6750 6350 1    60   BiDi
 47
-Text GLabel 8900 4850 2    60   BiDi
-46
-Text GLabel 8900 4750 2    60   BiDi
-45
-Text GLabel 8900 4650 2    60   BiDi
-44
+Text GLabel 4750 6350 1    60   BiDi
+54
+Text GLabel 4850 6350 1    60   BiDi
+53
+Text GLabel 4950 6350 1    60   BiDi
+52
+Text GLabel 5250 6350 1    60   BiDi
+51
+Text GLabel 5350 6350 1    60   BiDi
+50
+Text GLabel 5450 6350 1    60   BiDi
+49
+Text GLabel 8900 5050 2    60   Output
+FSMC_A22
+Text GLabel 8900 4950 2    60   Output
+FSMC_A21
+Text GLabel 8900 4850 2    60   Output
+FSMC_A20
+Text GLabel 8900 4750 2    60   Output
+FSMC_A19
+Text GLabel 8900 4650 2    60   Output
+FSMC_A23
 Text GLabel 8900 3450 2    60   BiDi
-43
+FSMC_NE1
 Text GLabel 8900 3350 2    60   BiDi
 42
 Text GLabel 8900 3050 2    60   BiDi
@@ -538,7 +564,7 @@ Text GLabel 2750 4550 0    60   BiDi
 Text GLabel 2750 4450 0    60   BiDi
 33
 Text GLabel 2750 4350 0    60   BiDi
-32
+DISC
 Text GLabel 2750 4250 0    60   BiDi
 31
 Text GLabel 2750 4150 0    60   BiDi
@@ -551,7 +577,7 @@ Text GLabel 2750 1850 0    60   BiDi
 0
 Text GLabel 2750 3550 0    60   BiDi
 27
-Text GLabel 8900 2550 2    60   BiDi
+Text GLabel 10350 2550 2    60   BiDi
 26
 Text GLabel 2750 2750 0    60   BiDi
 9
@@ -621,13 +647,13 @@ Text GLabel 7350 6350 1    60   Output
 FSMC_A4
 Text GLabel 7250 6350 1    60   Output
 FSMC_A5
-Text GLabel 6550 6350 1    60   Input
+Text GLabel 6550 6350 1    60   Output
 FSMC_A6
-Text GLabel 6450 6350 1    60   Input
+Text GLabel 6450 6350 1    60   Output
 FSMC_A7
-Text GLabel 6350 6350 1    60   Input
+Text GLabel 6350 6350 1    60   Output
 FSMC_A8
-Text GLabel 6250 6350 1    60   Input
+Text GLabel 6250 6350 1    60   Output
 FSMC_A9
 Text GLabel 6050 6350 1    60   Output
 FSMC_A10
@@ -641,8 +667,8 @@ Text GLabel 5650 6350 1    60   Output
 FSMC_A14
 Text GLabel 5550 6350 1    60   Output
 FSMC_A15
-Text GLabel 1750 6800 2    60   Input
-JTAG_TRST
+Text GLabel 1750 6800 2    60   BiDi
+JTAG-TRST
 Text GLabel 5050 6350 1    60   BiDi
 FSMC_NE3
 Text GLabel 8900 3250 2    60   BiDi
@@ -681,8 +707,6 @@ F 1 "GND" H 6950 1280 30  0001 C C
 $EndComp
 Text Label 7850 900  3    60   ~
 BOOT0
-Text Label 7750 900  3    60   ~
-JTAG_TRST
 Text Label 3850 6350 0    60   ~
 BOOT0
 $Comp
@@ -711,15 +735,6 @@ F 0 "#PWR049" H 9450 1500 30  0001 C C
 F 1 "GND" H 9450 1430 30  0001 C C
 	1    9450 1500
 	1    0    0    -1  
-$EndComp
-$Comp
-L BUT BUT2
-U 1 1 4B837589
-P 3700 6550
-F 0 "BUT2" H 3700 6800 60  0000 C C
-F 1 "BUT" H 3700 6800 60  0001 C C
-	1    3700 6550
-	0    -1   1    0   
 $EndComp
 $Comp
 L C C2
@@ -765,15 +780,6 @@ F 0 "#PWR051" H 1050 7300 30  0001 C C
 F 1 "GND" H 1050 7230 30  0001 C C
 	1    1050 7300
 	1    0    0    -1  
-$EndComp
-$Comp
-L BUT BUT1
-U 1 1 4B83757B
-P 1050 7000
-F 0 "BUT1" H 1050 7250 60  0000 C C
-F 1 "BUT" H 1050 7250 60  0001 C C
-	1    1050 7000
-	0    -1   -1   0   
 $EndComp
 $Comp
 L VCC #PWR052
