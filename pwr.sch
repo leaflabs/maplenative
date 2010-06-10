@@ -22,8 +22,6 @@ Wire Wire Line
 	9350 2550 9450 2550
 Wire Wire Line
 	2400 5400 2400 5700
-Wire Wire Line
-	4700 3400 4700 3100
 Connection ~ 5950 4000
 Wire Wire Line
 	5200 4000 6050 4000
@@ -259,13 +257,9 @@ Wire Wire Line
 Wire Wire Line
 	8600 2450 9450 2450
 Wire Wire Line
-	4700 4050 4700 3700
-Connection ~ 4700 3750
-Wire Wire Line
 	2100 5550 2100 5700
 Kmarq B 1200 5900 "Warning Pin passive Unconnected" F=1
 Kmarq B 7300 2700 "Warning Pin power_in not driven (Net 117)" F=1
-Kmarq B 4700 4050 "Warning Pin power_in not driven (Net 2)" F=1
 $Comp
 L CP C21
 U 1 1 4B98D407
@@ -291,24 +285,6 @@ P 5950 4200
 F 0 "C20" H 6000 4300 50  0000 L C
 F 1 "47uF" H 6000 4100 50  0000 L C
 	1    5950 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR012
-U 1 1 4B9446CF
-P 4700 4050
-F 0 "#PWR012" H 4700 4050 30  0001 C C
-F 1 "GND" H 4700 3980 30  0001 C C
-	1    4700 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_JACK PWR_JACK1
-U 1 1 4B9446B8
-P 4450 3650
-F 0 "PWR_JACK1" H 4400 3850 60  0001 C C
-F 1 "PWR_JACK" H 4400 3850 60  0001 C C
-	1    4450 3650
 	1    0    0    -1  
 $EndComp
 $Comp
