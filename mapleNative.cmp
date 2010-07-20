@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 8/4/2010-21:03:26
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 19/7/2010-20:49:42
 
 BeginCmp
 TimeStamp = /4B8B0B59/4B918710;
@@ -295,13 +295,6 @@ IdModule  = PIN_ARRAY_32;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B8B0B59/4B9446B8;
-Reference = PWR_JACK1;
-ValeurCmp = PWR_JACK;
-IdModule  = power_jack;
-EndCmp
-
-BeginCmp
 TimeStamp = /4B8B0B59/4B915CFE;
 Reference = Q1;
 ValeurCmp = NPN;
@@ -439,6 +432,13 @@ TimeStamp = /4B837477/4BBE4342;
 Reference = R18;
 ValeurCmp = 1k;
 IdModule  = SM0402;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B91426B/4C4494CE;
+Reference = SD1;
+ValeurCmp = SD;
+IdModule  = DM3D-SF;
 EndCmp
 
 BeginCmp

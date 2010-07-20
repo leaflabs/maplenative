@@ -1,17 +1,16 @@
-ERC control (4/3/2010 12:58:24 PM)
+ERC control (19/7/2010-20:45:19)
 
 ***** Sheet / (Root) 
 
 ***** Sheet /conn/
 
 ***** Sheet /pwr/
-ERC: Warning Pin passive Unconnected (X= 1.200 inches, Y= 5.900 inches
-ERC: Warning Pin power_in not driven (Net 2) (X= 4.700 inches, Y= 4.050 inches
 
 ***** Sheet /sram/
 
 ***** Sheet /STM32/
-ERC: Warning Pin power_in not driven (Net 117) (X= 4.750 inches, Y= 1.550 inches
-ERC: Warning: Pin power_out connected to Pin BiDi (net 1) (X= 6.250 inches, Y= 1.450 inches
+ERC: Warning Pin power_in not driven (Net 113) (X= 5.050 inches, Y= 1.550 inches
+ERC: Warning Pin power_in not driven (Net 4) (X= 4.650 inches, Y= 1.550 inches
+ERC: Warning Pin power_in not driven (Net 2) (X= 10.350 inches, Y= 1.950 inches
 
- >> Errors ERC: 4
+ >> Errors ERC: 3

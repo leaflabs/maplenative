@@ -13,6 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 7550 1550
 $Comp
 L GND #PWR043
 U 1 1 4BBE4414
@@ -39,12 +40,12 @@ Wire Wire Line
 Connection ~ 5250 1450
 Wire Wire Line
 	4700 1450 4700 1350
-Connection ~ 8500 1400
+Connection ~ 8400 1400
 Wire Wire Line
-	8800 1400 8050 1400
-Connection ~ 8500 1050
+	8700 1400 7950 1400
+Connection ~ 8400 1050
 Wire Wire Line
-	8800 1050 7950 1050
+	8700 1050 7850 1050
 Wire Wire Line
 	2750 2950 2850 2950
 Wire Wire Line
@@ -201,13 +202,13 @@ Wire Wire Line
 Wire Wire Line
 	3300 6600 3300 6750
 Wire Wire Line
-	8050 1400 8050 1550
+	7950 1400 7950 1550
 Wire Wire Line
-	9450 1500 9450 1050
+	9350 1500 9350 1050
 Wire Wire Line
-	9450 1050 9200 1050
+	9350 1050 9100 1050
 Wire Wire Line
-	8350 800  8350 700 
+	8250 800  8250 700 
 Wire Wire Line
 	1050 6250 1050 6200
 Wire Wire Line
@@ -217,12 +218,12 @@ Wire Wire Line
 Wire Wire Line
 	1050 7200 1050 7300
 Wire Wire Line
-	9200 1400 9450 1400
-Connection ~ 9450 1400
+	9100 1400 9350 1400
+Connection ~ 9350 1400
 Wire Wire Line
-	7950 1050 7950 1550
+	7850 1050 7850 1550
 Wire Wire Line
-	7850 700  7850 1550
+	7750 700  7750 1550
 Wire Wire Line
 	7350 1550 7350 1450
 Connection ~ 7350 1450
@@ -384,7 +385,7 @@ Connection ~ 5750 1450
 Wire Wire Line
 	1950 3750 1950 3850
 Wire Wire Line
-	7750 1550 7750 1450
+	7650 1550 7650 1450
 Wire Wire Line
 	8800 2550 10350 2550
 Wire Wire Line
@@ -425,7 +426,7 @@ F 1 "BUT" H 1050 7250 60  0001 C C
 	1    1050 7000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7750 1450 3    60   BiDi
+Text GLabel 7650 1450 3    60   BiDi
 JTAG-TRST
 Kmarq B 6250 1550 "Warning Pin power_in not driven (Net 1)" F=1
 $Comp
@@ -514,7 +515,7 @@ Text GLabel 8900 3350 2    60   BiDi
 Text GLabel 8900 3050 2    60   BiDi
 41
 Text GLabel 8900 2950 2    60   BiDi
-40
+40/SDIO_CMD
 Text GLabel 8900 2850 2    60   BiDi
 FSMC_D3
 Text GLabel 8900 2450 2    60   BiDi
@@ -522,15 +523,15 @@ Text GLabel 8900 2450 2    60   BiDi
 Text GLabel 8900 2350 2    60   BiDi
 24
 Text GLabel 8900 2250 2    60   BiDi
-23
+23/SDIO_CK
 Text GLabel 8900 2150 2    60   BiDi
-22
+22/SDIO_D3
 Text GLabel 8900 2050 2    60   BiDi
-21
+21/SDIO_D2
 Text GLabel 8900 1950 2    60   BiDi
-20
+20/SDIO_D1
 Text GLabel 8900 1850 2    60   BiDi
-19
+19/SDIO_D0
 Text GLabel 2750 5950 0    60   BiDi
 18
 Text GLabel 2750 5850 0    60   BiDi
@@ -677,7 +678,6 @@ Text GLabel 8900 3150 2    60   BiDi
 FSMC_NOE
 Text GLabel 8900 2750 2    60   BiDi
 FSMC_D2
-NoConn ~ 7650 1550
 $Comp
 L GND #PWR046
 U 1 1 4B8B0CB9
@@ -705,7 +705,7 @@ F 1 "GND" H 6950 1280 30  0001 C C
 	1    6950 1350
 	1    0    0    1   
 $EndComp
-Text Label 7850 900  3    60   ~
+Text Label 7750 900  3    60   ~
 BOOT0
 Text Label 3850 6350 0    60   ~
 BOOT0
@@ -721,55 +721,55 @@ $EndComp
 $Comp
 L OSC OSC1
 U 1 1 4B8383C6
-P 8500 1250
-F 0 "OSC1" H 8600 1300 50  0000 L C
-F 1 "8Mhz" H 8600 1200 50  0000 L C
-	1    8500 1250
+P 8400 1250
+F 0 "OSC1" H 8500 1300 50  0000 L C
+F 1 "8Mhz" H 8500 1200 50  0000 L C
+	1    8400 1250
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR049
 U 1 1 4B8383A4
-P 9450 1500
-F 0 "#PWR049" H 9450 1500 30  0001 C C
-F 1 "GND" H 9450 1430 30  0001 C C
-	1    9450 1500
+P 9350 1500
+F 0 "#PWR049" H 9350 1500 30  0001 C C
+F 1 "GND" H 9350 1430 30  0001 C C
+	1    9350 1500
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C2
 U 1 1 4B837588
-P 9000 1400
-F 0 "C2" H 9050 1500 50  0000 L C
-F 1 "16pF" H 9050 1300 50  0000 L C
-	1    9000 1400
+P 8900 1400
+F 0 "C2" H 8950 1500 50  0000 L C
+F 1 "16pF" H 8950 1300 50  0000 L C
+	1    8900 1400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L C C1
 U 1 1 4B837587
-P 9000 1050
-F 0 "C1" H 9050 1150 50  0000 L C
-F 1 "16pF" H 9050 950 50  0000 L C
-	1    9000 1050
+P 8900 1050
+F 0 "C1" H 8950 1150 50  0000 L C
+F 1 "16pF" H 8950 950 50  0000 L C
+	1    8900 1050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR050
 U 1 1 4B83757E
-P 8350 800
-F 0 "#PWR050" H 8350 800 30  0001 C C
-F 1 "GND" H 8350 730 30  0001 C C
-	1    8350 800 
+P 8250 800
+F 0 "#PWR050" H 8250 800 30  0001 C C
+F 1 "GND" H 8250 730 30  0001 C C
+	1    8250 800 
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R2
 U 1 1 4B83757D
-P 8100 700
-F 0 "R2" V 8180 700 50  0000 C C
-F 1 "10k" V 8100 700 50  0000 C C
-	1    8100 700 
+P 8000 700
+F 0 "R2" V 8080 700 50  0000 C C
+F 1 "10k" V 8000 700 50  0000 C C
+	1    8000 700 
 	0    1    1    0   
 $EndComp
 $Comp
