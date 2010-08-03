@@ -13,17 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L GND #PWR01
-U 1 1 4C51E96A
-P 8000 4550
-F 0 "#PWR01" H 8000 4550 30  0001 C C
-F 1 "GND" H 8000 4480 30  0001 C C
-	1    8000 4550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
-	8100 4550 8000 4550
+	6600 3850 6700 3850
+Wire Wire Line
+	8100 4350 8000 4350
 Wire Wire Line
 	6700 3550 6600 3550
 Wire Wire Line
@@ -137,11 +130,11 @@ Wire Wire Line
 Wire Wire Line
 	3850 6300 3750 6300
 Wire Wire Line
-	8000 6150 8100 6150
+	8000 5750 8100 5750
 Wire Wire Line
 	8000 5950 8100 5950
 Wire Wire Line
-	8000 5750 8100 5750
+	8000 6050 8100 6050
 Wire Wire Line
 	8000 5550 8100 5550
 Wire Wire Line
@@ -165,11 +158,9 @@ Wire Wire Line
 Wire Wire Line
 	3850 1800 3750 1800
 Wire Wire Line
-	6600 6350 6700 6350
+	6600 6250 6700 6250
 Wire Wire Line
-	6600 6150 6700 6150
-Wire Wire Line
-	8000 4350 8100 4350
+	6600 6050 6700 6050
 Wire Wire Line
 	8000 4150 8100 4150
 Wire Wire Line
@@ -177,101 +168,99 @@ Wire Wire Line
 Wire Wire Line
 	8000 3750 8100 3750
 Wire Wire Line
+	8000 3550 8100 3550
+Wire Wire Line
+	8000 3650 8100 3650
+Wire Wire Line
 	8000 3850 8100 3850
 Wire Wire Line
 	8000 4050 8100 4050
 Wire Wire Line
 	8000 4250 8100 4250
 Wire Wire Line
-	8000 4450 8100 4450
-Wire Wire Line
-	6600 6250 6700 6250
-Wire Wire Line
-	6600 4550 6700 4550
+	6600 6150 6700 6150
 Wire Wire Line
 	6600 4450 6700 4450
 Wire Wire Line
-	8000 6350 8100 6350
+	6600 4350 6700 4350
 Wire Wire Line
-	8000 3650 8100 3650
+	8000 5350 8100 5350
 Wire Wire Line
-	6600 5950 6700 5950
-Wire Wire Line
-	6600 5750 6700 5750
-Wire Wire Line
-	6600 5550 6700 5550
-Wire Wire Line
-	6600 5350 6700 5350
-Wire Wire Line
-	6600 5150 6700 5150
-Wire Wire Line
-	6600 4950 6700 4950
-Wire Wire Line
-	6600 4750 6700 4750
-Wire Wire Line
-	6600 4650 6700 4650
-Wire Wire Line
-	6600 4850 6700 4850
-Wire Wire Line
-	6600 5050 6700 5050
-Wire Wire Line
-	6600 5250 6700 5250
-Wire Wire Line
-	6600 5450 6700 5450
-Wire Wire Line
-	6600 5650 6700 5650
+	8000 4550 8100 4550
 Wire Wire Line
 	6600 5850 6700 5850
 Wire Wire Line
-	8000 3550 8100 3550
+	6600 5650 6700 5650
 Wire Wire Line
-	8000 6250 8100 6250
+	6600 5450 6700 5450
 Wire Wire Line
-	8000 6450 8100 6450
+	6600 5250 6700 5250
 Wire Wire Line
-	6600 4150 6700 4150
+	6600 5050 6700 5050
 Wire Wire Line
-	6600 3950 6700 3950
+	6600 4850 6700 4850
 Wire Wire Line
-	6600 3750 6700 3750
+	6600 4650 6700 4650
 Wire Wire Line
-	6600 3850 6700 3850
+	6600 4550 6700 4550
 Wire Wire Line
-	6600 4050 6700 4050
+	6600 4750 6700 4750
 Wire Wire Line
-	6600 4250 6700 4250
+	6600 4950 6700 4950
 Wire Wire Line
-	6700 3650 6600 3650
+	6600 5150 6700 5150
 Wire Wire Line
-	8100 5450 8000 5450
+	6600 5350 6700 5350
 Wire Wire Line
-	8100 5050 8000 5050
+	6600 5550 6700 5550
 Wire Wire Line
-	8100 4850 8000 4850
+	6600 5750 6700 5750
+Wire Wire Line
+	8000 4450 8100 4450
 Wire Wire Line
 	8000 5250 8100 5250
 Wire Wire Line
-	8000 5150 8100 5150
+	8000 5450 8100 5450
 Wire Wire Line
-	8000 4650 8100 4650
+	6600 4050 6700 4050
 Wire Wire Line
-	8000 4750 8100 4750
+	6600 3650 6700 3650
+Wire Wire Line
+	6600 3750 6700 3750
+Wire Wire Line
+	6600 3950 6700 3950
+Wire Wire Line
+	6600 4150 6700 4150
+Wire Wire Line
+	6700 6350 6600 6350
+Wire Wire Line
+	8100 4650 8000 4650
+Wire Wire Line
+	8100 5150 8000 5150
 Wire Wire Line
 	8100 4950 8000 4950
 Wire Wire Line
-	8100 5350 8000 5350
+	8000 6350 8100 6350
+Wire Wire Line
+	8000 4750 8100 4750
+Wire Wire Line
+	8000 4850 8100 4850
+Wire Wire Line
+	8100 5050 8000 5050
+Wire Wire Line
+	8100 6450 8000 6450
 Wire Wire Line
 	8000 5650 8100 5650
 Wire Wire Line
 	8000 5850 8100 5850
 Wire Wire Line
-	8000 6050 8100 6050
+	8000 6150 8100 6150
 Wire Wire Line
 	6600 6550 6700 6550
 Wire Wire Line
 	8000 6550 8100 6550
 Wire Wire Line
-	6600 4350 6700 4350
+	6600 4250 6700 4250
 Wire Wire Line
 	3750 3600 3850 3600
 Wire Wire Line
@@ -295,7 +284,18 @@ Wire Wire Line
 Wire Wire Line
 	8750 2050 8750 2150
 Wire Wire Line
-	6700 6050 6600 6050
+	6700 5950 6600 5950
+Wire Wire Line
+	8000 6250 8100 6250
+$Comp
+L GND #PWR01
+U 1 1 4C51E96A
+P 8000 4350
+F 0 "#PWR01" H 8000 4350 30  0001 C C
+F 1 "GND" H 8000 4280 30  0001 C C
+	1    8000 4350
+	0    1    1    0   
+$EndComp
 $Comp
 L GND #PWR02
 U 1 1 4C44B3FC
@@ -404,10 +404,10 @@ $EndComp
 $Comp
 L GND #PWR06
 U 1 1 4B915C87
-P 6600 4350
-F 0 "#PWR06" H 6600 4350 30  0001 C C
-F 1 "GND" H 6600 4280 30  0001 C C
-	1    6600 4350
+P 6600 4250
+F 0 "#PWR06" H 6600 4250 30  0001 C C
+F 1 "GND" H 6600 4180 30  0001 C C
+	1    6600 4250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -440,10 +440,10 @@ $EndComp
 $Comp
 L GND #PWR010
 U 1 1 4B915C51
-P 6600 6050
-F 0 "#PWR010" H 6600 6050 30  0001 C C
-F 1 "GND" H 6600 5980 30  0001 C C
-	1    6600 6050
+P 6600 5950
+F 0 "#PWR010" H 6600 5950 30  0001 C C
+F 1 "GND" H 6600 5880 30  0001 C C
+	1    6600 5950
 	0    1    1    0   
 $EndComp
 $Comp
@@ -535,115 +535,115 @@ Text GLabel 3850 6200 2    60   BiDi
 FSMC_D14
 Text GLabel 3850 6300 2    60   BiDi
 FSMC_D15
-Text GLabel 8000 6150 0    60   BiDi
+Text GLabel 8000 5750 0    60   BiDi
 51
-Text GLabel 8000 6050 0    60   BiDi
+Text GLabel 8000 6150 0    60   BiDi
 52
 Text GLabel 8000 5950 0    60   BiDi
 54
 Text GLabel 8000 5850 0    60   BiDi
 55
-Text GLabel 8000 5750 0    60   BiDi
-51
+Text GLabel 8000 6050 0    60   BiDi
+53
 Text GLabel 8000 5650 0    60   BiDi
 50
 Text GLabel 8000 5550 0    60   BiDi
 49
-Text GLabel 8000 5450 0    60   BiDi
-48
-Text GLabel 8000 5350 0    60   BiDi
-42
-Text GLabel 8000 5050 0    60   BiDi
-43
-Text GLabel 8000 4950 0    60   BiDi
-44
-Text GLabel 8000 4850 0    60   BiDi
-45
-Text GLabel 8000 4750 0    60   BiDi
-46
 Text GLabel 8000 4650 0    60   BiDi
-47
-Text GLabel 8000 5250 0    60   BiDi
-41
-Text GLabel 8000 5150 0    60   BiDi
-40/SDIO_CMD
-Text GLabel 6600 4250 0    60   BiDi
-39
-Text GLabel 6600 4150 0    60   BiDi
-38
-Text GLabel 6600 4050 0    60   BiDi
-37
-Text GLabel 6600 3950 0    60   BiDi
-36
-Text GLabel 6600 3850 0    60   BiDi
-35
-Text GLabel 6600 3750 0    60   BiDi
-34
-Text GLabel 6600 3650 0    60   BiDi
-33
-Text GLabel 8000 6450 0    60   BiDi
-29
-Text GLabel 8000 6350 0    60   BiDi
-30
+48
 Text GLabel 8000 6250 0    60   BiDi
-31
-Text GLabel 8000 3650 0    60   BiDi
-27
-Text GLabel 8000 3550 0    60   BiDi
-28
-Text GLabel 6600 5950 0    60   BiDi
-26
-Text GLabel 6600 5850 0    60   BiDi
-25
-Text GLabel 6600 5750 0    60   BiDi
-24
-Text GLabel 6600 5650 0    60   BiDi
-23/SDIO_CK
-Text GLabel 6600 5550 0    60   BiDi
-22/SDIO_D3
-Text GLabel 6600 5450 0    60   BiDi
-21/SDIO_D2
-Text GLabel 6600 5350 0    60   BiDi
-20/SDIO_D1
-Text GLabel 6600 5250 0    60   BiDi
-19/SDIO_D0
-Text GLabel 6600 5150 0    60   BiDi
-18
-Text GLabel 6600 5050 0    60   BiDi
-17
-Text GLabel 6600 4950 0    60   BiDi
-16
-Text GLabel 6600 4850 0    60   BiDi
-15
-Text GLabel 6600 4750 0    60   BiDi
-14
-Text GLabel 6600 4650 0    60   BiDi
-13
-Text GLabel 6600 4550 0    60   BiDi
-12
-Text GLabel 6600 4450 0    60   BiDi
-11
-Text GLabel 8000 3750 0    60   BiDi
-7
+42
+Text GLabel 8000 5150 0    60   BiDi
+43
+Text GLabel 8000 5050 0    60   BiDi
+44
+Text GLabel 8000 4950 0    60   BiDi
+45
+Text GLabel 8000 4850 0    60   BiDi
+46
+Text GLabel 8000 4750 0    60   BiDi
+47
+Text GLabel 8000 6350 0    60   BiDi
+41
+Text GLabel 8000 6450 0    60   BiDi
+40/SDIO_CMD
+Text GLabel 6600 4150 0    60   BiDi
+39
+Text GLabel 6600 4050 0    60   BiDi
+38
+Text GLabel 6600 3950 0    60   BiDi
+37
+Text GLabel 6600 3850 0    60   BiDi
+36
+Text GLabel 6600 3750 0    60   BiDi
+35
+Text GLabel 6600 3650 0    60   BiDi
+34
 Text GLabel 6600 6350 0    60   BiDi
-10
-Text GLabel 6600 6250 0    60   BiDi
-9
-Text GLabel 6600 6150 0    60   BiDi
-8
+33
+Text GLabel 8000 5450 0    60   BiDi
+29
+Text GLabel 8000 5350 0    60   BiDi
+30
+Text GLabel 8000 5250 0    60   BiDi
+31
+Text GLabel 8000 4550 0    60   BiDi
+27
 Text GLabel 8000 4450 0    60   BiDi
-0
-Text GLabel 8000 4350 0    60   BiDi
-1
+28
+Text GLabel 6600 5850 0    60   BiDi
+26
+Text GLabel 6600 5750 0    60   BiDi
+25
+Text GLabel 6600 5650 0    60   BiDi
+24
+Text GLabel 6600 5550 0    60   BiDi
+23/SDIO_CK
+Text GLabel 6600 5450 0    60   BiDi
+22/SDIO_D3
+Text GLabel 6600 5350 0    60   BiDi
+21/SDIO_D2
+Text GLabel 6600 5250 0    60   BiDi
+20/SDIO_D1
+Text GLabel 6600 5150 0    60   BiDi
+19/SDIO_D0
+Text GLabel 6600 5050 0    60   BiDi
+18
+Text GLabel 6600 4950 0    60   BiDi
+17
+Text GLabel 6600 4850 0    60   BiDi
+16
+Text GLabel 6600 4750 0    60   BiDi
+15
+Text GLabel 6600 4650 0    60   BiDi
+14
+Text GLabel 6600 4550 0    60   BiDi
+13
+Text GLabel 6600 4450 0    60   BiDi
+12
+Text GLabel 6600 4350 0    60   BiDi
+11
+Text GLabel 8000 3550 0    60   BiDi
+7
+Text GLabel 6600 6250 0    60   BiDi
+10
+Text GLabel 6600 6150 0    60   BiDi
+9
+Text GLabel 6600 6050 0    60   BiDi
+8
 Text GLabel 8000 4250 0    60   BiDi
-2
+0
 Text GLabel 8000 4150 0    60   BiDi
-3
+1
 Text GLabel 8000 4050 0    60   BiDi
-4
+2
 Text GLabel 8000 3950 0    60   BiDi
-5
+3
 Text GLabel 8000 3850 0    60   BiDi
+4
+Text GLabel 8000 3750 0    60   BiDi
+5
+Text GLabel 8000 3650 0    60   BiDi
 6
 Text GLabel 2850 1900 0    60   BiDi
 JTAG-TRST
