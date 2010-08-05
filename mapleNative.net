@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  2/8/2010-20:56:09
+# EESchema Netlist Version 1.1 created  5/8/2010-18:27:53
 (
  ( /4B91426B/4C4494CE $noname  SD1 SD {Lib=SD}
   (    1 N-000028 )
@@ -149,22 +149,22 @@
   (    2 GND )
  )
  ( /4B8B0B59/4B98D3FE $noname  C20 47uF {Lib=CP}
-  (    1 N-000134 )
+  (    1 N-000133 )
   (    2 GND )
  )
  ( /4B8B0B59/4B918730 $noname  P2 CONN_4X2 {Lib=CONN_4X2}
-  (    1 N-000134 )
+  (    1 N-000133 )
   (    2 N-000129 )
-  (    3 N-000134 )
+  (    3 N-000133 )
   (    4 N-000119 )
-  (    5 N-000134 )
+  (    5 N-000133 )
   (    6 +5V )
-  (    7 N-000134 )
+  (    7 N-000133 )
   (    8 N-000125 )
  )
  ( /4B8B0B59/4B91872B $noname  MCP1 MCP1700T {Lib=MCP1700T}
   (    1 GND )
-  (    2 N-000134 )
+  (    2 N-000133 )
   (    3 VAA )
  )
  ( /4B8B0B59/4B918720 $noname  P4 CONN_6 {Lib=CONN_6}
@@ -173,7 +173,7 @@
   (    3 VCC )
   (    4 GND )
   (    5 GND )
-  (    6 N-000134 )
+  (    6 N-000133 )
  )
  ( /4B8B0B59/4B91871D $noname  P1 CONN_2 {Lib=CONN_2}
   (    1 GND )
@@ -200,7 +200,7 @@
   (    2 N-000124 )
  )
  ( /4B8B0B59/4B918716 $noname  C17 0.1uF {Lib=C}
-  (    1 N-000134 )
+  (    1 N-000133 )
   (    2 GND )
  )
  ( /4B8B0B59/4B918715 $noname  R13 1k {Lib=R}
@@ -220,7 +220,7 @@
   (    2 GND )
  )
  ( /4B8B0B59/4B918711 $noname  R16 10k {Lib=R}
-  (    1 N-000134 )
+  (    1 N-000133 )
   (    2 N-000122 )
  )
  ( /4B8B0B59/4B918710 $noname  BQ1 BQ24010DRC {Lib=BQ24010DRC}
@@ -237,16 +237,8 @@
  )
  ( /4B8B0B59/4B91870F $noname  MCP2 MCP1700T {Lib=MCP1700T}
   (    1 GND )
-  (    2 N-000134 )
+  (    2 N-000133 )
   (    3 VCC )
- )
- ( /4B8B0B59/4B915D09 $noname  R5 10k {Lib=R}
-  (    1 /pwr/USB_P )
-  (    2 GND )
- )
- ( /4B8B0B59/4B915D08 $noname  R4 10k {Lib=R}
-  (    1 +5V )
-  (    2 /pwr/USB_P )
  )
  ( /4B8B0B59/4B915D06 $noname  R8 10k {Lib=R}
   (    1 +5V )
@@ -641,16 +633,6 @@ $component R17
  SM0805
 $endlist
 $component R16
- R?
- SM0603
- SM0805
-$endlist
-$component R5
- R?
- SM0603
- SM0805
-$endlist
-$component R4
  R?
  SM0603
  SM0805
@@ -1288,7 +1270,6 @@ Net 114 "GND"
  R17 2
  BQ1 5
  MCP2 1
- R5 2
  R11 2
  Q1 3
  USB1 GND
@@ -1350,7 +1331,6 @@ Net 122 ""
  BQ1 8
 Net 123 "+5V"
  P2 6
- R4 1
  R8 1
  USB1 VBUS
 Net 124 ""
@@ -1385,10 +1365,7 @@ Net 132 ""
  R7 2
  R6 1
  Q1 1
-/pwr/Net 133 "USB_P"
- R5 1
- R4 2
-Net 134 ""
+Net 133 ""
  C20 1
  P2 7
  P2 5
@@ -1399,10 +1376,10 @@ Net 134 ""
  C17 1
  R16 1
  MCP2 2
-/pwr/Net 136 "USBDP"
+/pwr/Net 135 "USBDP"
  R10 2
  USB1 D+
-/pwr/Net 137 "USBDM"
+/pwr/Net 136 "USBDM"
  R9 2
  USB1 D-
 }

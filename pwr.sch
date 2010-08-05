@@ -184,10 +184,6 @@ Wire Wire Line
 Connection ~ 3900 1500
 Connection ~ 2800 6600
 Wire Wire Line
-	1350 5500 1350 5450
-Wire Wire Line
-	1350 4300 1350 4350
-Wire Wire Line
 	2400 4800 2400 4900
 Wire Wire Line
 	2800 5750 2800 5900
@@ -239,11 +235,6 @@ Wire Wire Line
 	2500 5550 2100 5550
 Wire Wire Line
 	2800 5350 2800 5250
-Wire Wire Line
-	1350 4950 1350 4850
-Wire Wire Line
-	1350 4900 950  4900
-Connection ~ 1350 4900
 Wire Wire Line
 	2650 6450 2650 6500
 Wire Wire Line
@@ -580,44 +571,6 @@ Text GLabel 3750 6600 2    60   BiDi
 USB_DP
 Text GLabel 3750 6500 2    60   BiDi
 USB_DM
-Text Label 950  4900 0    60   ~
-USB_P
-$Comp
-L GND #PWR028
-U 1 1 4B915D0B
-P 1350 5500
-F 0 "#PWR028" H 1350 5500 30  0001 C C
-F 1 "GND" H 1350 5430 30  0001 C C
-	1    1350 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR029
-U 1 1 4B915D0A
-P 1350 4300
-F 0 "#PWR029" H 1350 4390 20  0001 C C
-F 1 "+5V" H 1350 4390 30  0000 C C
-	1    1350 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R5
-U 1 1 4B915D09
-P 1350 5200
-F 0 "R5" V 1430 5200 50  0000 C C
-F 1 "10k" V 1350 5200 50  0000 C C
-	1    1350 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R4
-U 1 1 4B915D08
-P 1350 4600
-F 0 "R4" V 1430 4600 50  0000 C C
-F 1 "10k" V 1350 4600 50  0000 C C
-	1    1350 4600
-	1    0    0    -1  
-$EndComp
 $Comp
 L +5V #PWR030
 U 1 1 4B915D07
