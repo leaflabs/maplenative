@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power,/home/jessb/kicad/libraries/jessb,/home/jessb/kicad/libraries/okie,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./mapleNative.cache
+LIBS:power,/home/jessb/kicad/libraries/jessb,/home/jessb/kicad/libraries/okie,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
@@ -16,7 +16,7 @@ $EndDescr
 Wire Wire Line
 	6600 3850 6700 3850
 Wire Wire Line
-	8100 4350 8000 4350
+	8100 4550 8000 4550
 Wire Wire Line
 	6700 3550 6600 3550
 Wire Wire Line
@@ -186,7 +186,7 @@ Wire Wire Line
 Wire Wire Line
 	8000 5350 8100 5350
 Wire Wire Line
-	8000 4550 8100 4550
+	8000 4350 8100 4350
 Wire Wire Line
 	6600 5850 6700 5850
 Wire Wire Line
@@ -290,10 +290,10 @@ Wire Wire Line
 $Comp
 L GND #PWR01
 U 1 1 4C51E96A
-P 8000 4350
-F 0 "#PWR01" H 8000 4350 30  0001 C C
-F 1 "GND" H 8000 4280 30  0001 C C
-	1    8000 4350
+P 8000 4550
+F 0 "#PWR01" H 8000 4550 30  0001 C C
+F 1 "GND" H 8000 4480 30  0001 C C
+	1    8000 4550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -587,7 +587,7 @@ Text GLabel 8000 5350 0    60   BiDi
 30
 Text GLabel 8000 5250 0    60   BiDi
 31
-Text GLabel 8000 4550 0    60   BiDi
+Text GLabel 8000 4350 0    60   BiDi
 27
 Text GLabel 8000 4450 0    60   BiDi
 28
