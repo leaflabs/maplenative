@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power,/home/jessb/kicad/libraries/jessb,/home/jessb/kicad/libraries/okie,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
+LIBS:power,/home/jessb/kicad/libraries/jessb,/home/jessb/kicad/libraries/okie,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./mapleNative.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
@@ -13,8 +13,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 900  5900 0    60   BiDi
-DISC
+Connection ~ 5600 4850
+Wire Wire Line
+	5600 4850 5600 3700
+Wire Wire Line
+	5300 3300 5300 3000
+Wire Wire Line
+	5600 3300 5600 2450
+Wire Wire Line
+	5600 2450 7800 2450
+Connection ~ 5950 4000
+Wire Wire Line
+	5000 4000 6050 4000
+Wire Wire Line
+	5000 4000 5000 3100
 Connection ~ 9350 2450
 Wire Wire Line
 	9350 2450 9350 2550
@@ -22,24 +34,10 @@ Wire Wire Line
 	9350 2550 9450 2550
 Wire Wire Line
 	2400 5400 2400 5700
-Connection ~ 5950 4000
-Wire Wire Line
-	5200 4000 6050 4000
-Wire Wire Line
-	5400 3900 5400 4850
-Wire Wire Line
-	5400 4850 3900 4850
 Wire Wire Line
 	9450 2850 7950 2850
 Wire Wire Line
 	7800 2450 7800 4500
-Wire Wire Line
-	7800 2450 5400 2450
-Wire Wire Line
-	5400 2450 5400 3100
-Connection ~ 5400 4000
-Wire Wire Line
-	5200 4000 5200 3900
 Wire Wire Line
 	6950 3150 7300 3150
 Wire Wire Line
@@ -71,8 +69,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 3300 4500 3350
 Wire Wire Line
-	5300 3000 5300 3100
-Wire Wire Line
 	7300 4250 7300 4200
 Connection ~ 8350 4850
 Wire Wire Line
@@ -97,14 +93,10 @@ Wire Wire Line
 Wire Wire Line
 	5950 4400 5950 4450
 Wire Wire Line
-	5100 3100 5200 3100
-Wire Wire Line
 	7800 4500 8350 4500
 Connection ~ 8350 4500
 Wire Wire Line
 	7050 4950 7050 4850
-Wire Wire Line
-	4700 3100 4500 3100
 Wire Wire Line
 	9050 6400 9050 6450
 Wire Wire Line
@@ -127,18 +119,6 @@ Wire Wire Line
 	7300 2750 7300 2700
 Wire Wire Line
 	7300 3150 7300 3200
-Wire Wire Line
-	5300 4000 5300 3900
-Connection ~ 5300 4000
-Wire Wire Line
-	5500 4000 5500 3900
-Connection ~ 5500 4000
-Wire Wire Line
-	5500 3100 5750 3100
-Wire Wire Line
-	5750 3100 5750 4850
-Wire Wire Line
-	5750 4850 7050 4850
 Wire Wire Line
 	7950 2300 3900 2300
 Wire Wire Line
@@ -249,6 +229,34 @@ Wire Wire Line
 	8600 2450 9450 2450
 Wire Wire Line
 	2100 5550 2100 5700
+Wire Wire Line
+	3900 4850 7050 4850
+Wire Wire Line
+	4500 3100 4600 3100
+Connection ~ 5600 4000
+Wire Wire Line
+	5300 3700 5300 4000
+Connection ~ 5300 4000
+$Comp
+L DIODE D?
+U 1 1 4C77EDE0
+P 5600 3500
+F 0 "D?" H 5600 3600 40  0000 C C
+F 1 "DIODE" H 5600 3400 40  0000 C C
+	1    5600 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 4C77EDD7
+P 5300 3500
+F 0 "D?" H 5300 3600 40  0000 C C
+F 1 "DIODE" H 5300 3400 40  0000 C C
+	1    5300 3500
+	0    1    1    0   
+$EndComp
+Text GLabel 900  5900 0    60   BiDi
+DISC
 $Comp
 L CP C21
 U 1 1 4B98D407
@@ -288,15 +296,6 @@ $EndComp
 Text GLabel 9350 2350 0    60   BiDi
 JTAG-TRST
 NoConn ~ 8250 5750
-$Comp
-L CONN_4X2 P2
-U 1 1 4B918730
-P 5350 3500
-F 0 "P2" H 5350 3750 50  0000 C C
-F 1 "CONN_4X2" V 5350 3500 40  0000 C C
-	1    5350 3500
-	0    1    -1   0   
-$EndComp
 $Comp
 L VAA #PWR35
 U 1 1 4B91872F
@@ -462,10 +461,10 @@ $EndComp
 $Comp
 L DIODE D1
 U 1 1 4B91871B
-P 4900 3100
-F 0 "D1" H 4900 3200 40  0000 C C
-F 1 "DIODE" H 4900 3000 40  0000 C C
-	1    4900 3100
+P 4800 3100
+F 0 "D1" H 4800 3200 40  0000 C C
+F 1 "DIODE" H 4800 3000 40  0000 C C
+	1    4800 3100
 	1    0    0    -1  
 $EndComp
 $Comp
