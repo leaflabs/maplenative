@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date 3/1/2011-18:26:19
+PCBNEW-BOARD Version 1 date 3/1/2011-18:37:56
 
 $GENERAL
 LayerCount 4
@@ -9,7 +9,7 @@ Di 7847 9924 56584 31076
 Ndraw 72
 Ntrack 2670
 Nzone 8356
-Nmodule 67
+Nmodule 71
 Nnets 132
 $EndGENERAL
 
@@ -51,8 +51,8 @@ TextPcbSize 300 400
 EdgeModWidth 39
 TextModSize 400 400
 TextModWidth 42
-PadSize 472 197
-PadDrill 0
+PadSize 1250 1250
+PadDrill 1250
 AuxiliaryAxisOrg 24750 15650
 $EndSETUP
 
@@ -5320,6 +5320,78 @@ Of 0.000000 0.000000 0.000000
 Ro 0.000000 0.000000 0.000000
 $EndSHAPE3D
 $EndMODULE  SM0402
+$MODULE mounthole
+Po 11000 11000 0 15 4D2216BB 4D22175F ~~
+Li mounthole
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 4D22175F
+AR 
+Op 0 0 0
+T0 0 -1000 100 100 0 10 N V 21 "mounthole"
+T1 0 1100 400 400 0 120 N I 21 "P***"
+$PAD
+Sh "1" C 1250 1250 0 0 0
+Dr 1250 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  mounthole
+$MODULE mounthole
+Po 49000 11000 0 15 4D2216BB 4D22176D ~~
+Li mounthole
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 4D22176D
+AR 
+Op 0 0 0
+T0 0 -1000 100 100 0 10 N V 21 "mounthole"
+T1 0 1100 400 400 0 120 N I 21 "P***"
+$PAD
+Sh "1" C 1250 1250 0 0 0
+Dr 1250 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  mounthole
+$MODULE mounthole
+Po 49000 30000 0 15 4D2216BB 4D221778 ~~
+Li mounthole
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 4D221778
+AR 
+Op 0 0 0
+T0 0 -1000 100 100 0 10 N V 21 "mounthole"
+T1 0 1100 400 400 0 120 N I 21 "P***"
+$PAD
+Sh "1" C 1250 1250 0 0 0
+Dr 1250 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  mounthole
+$MODULE mounthole
+Po 11000 30000 0 15 4D2216BB 4D22177F ~~
+Li mounthole
+Cd module 1 pin (ou trou mecanique de percage)
+Kw DEV
+Sc 4D22177F
+AR 
+Op 0 0 0
+T0 0 -1000 100 100 0 10 N V 21 "mounthole"
+T1 0 1100 400 400 0 120 N I 21 "P***"
+$PAD
+Sh "1" C 1250 1250 0 0 0
+Dr 1250 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE  mounthole
 $TEXTPCB
 Te "63"
 Po 46000 29250 300 400 42 0
