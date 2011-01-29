@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 17/12/2010-15:14:53
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 29/1/2011-02:35:04
 
 BeginCmp
 TimeStamp = /4B8B0B59/4B918710;
@@ -193,21 +193,21 @@ BeginCmp
 TimeStamp = /4B8B0B59/4B918719;
 Reference = D2;
 ValeurCmp = Red;
-IdModule  = SM0603;
+IdModule  = LEDSM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B8B0B59/4B91871A;
 Reference = D3;
 ValeurCmp = Green;
-IdModule  = SM0603;
+IdModule  = LEDSM0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /4B837477/4BBE43DA;
 Reference = D4;
 ValeurCmp = LED;
-IdModule  = SM0603;
+IdModule  = LEDSM0603;
 EndCmp
 
 BeginCmp

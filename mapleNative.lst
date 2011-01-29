@@ -1,4 +1,4 @@
-EESchema (20080825c)  >> Creation date: 13/4/2010-18:14:45
+EESchema (20080825c)  >> Creation date: 24/1/2011-21:46:29
 
 #Cmp ( order = Reference )
 | BQ1        BQ24010DRC  ;             
@@ -31,11 +31,12 @@ EESchema (20080825c)  >> Creation date: 13/4/2010-18:14:45
 | D2         Red         ;             
 | D3         Green       ;             
 | D4         LED         ;             
+| D5         DIODE       ;             
+| D6         DIODE       ;             
 | MCP1       MCP1700T    ;             
 | MCP2       MCP1700T    ;             
 | OSC1       8Mhz        ;             
 | P1         CONN_2      ;             
-| P2         CONN_4X2    ;             
 | P3         CONN_2      ;             
 | P4         CONN_6      ;             
 | P5         CONN_4X2    ;             
@@ -43,14 +44,11 @@ EESchema (20080825c)  >> Creation date: 13/4/2010-18:14:45
 | P7         CONN_16     ;             
 | P8         CONN_32     ;             
 | P9         CONN_32     ;             
-| PWR_JACK1  PWR_JACK    ;             
 | Q1         NPN         ;             
 | Q2         NPN         ;             
 | R1         1.5k        ;             
 | R2         10k         ;             
 | R3         10k         ;             
-| R4         10k         ;             
-| R5         10k         ;             
 | R6         1k          ;             
 | R7         47k         ;             
 | R8         10k         ;             
@@ -64,6 +62,9 @@ EESchema (20080825c)  >> Creation date: 13/4/2010-18:14:45
 | R16        10k         ;             
 | R17        10k         ;             
 | R18        1k          ;             
+| R19        1.5k        ;             
+| R20        1.5k        ;             
+| SD1        SD          ;             
 | U1         STM32F103ZE ;             
 | U2         IS62WV51216ALL;             
 | USB1       USB         ;             
@@ -88,10 +89,10 @@ EESchema (20080825c)  >> Creation date: 13/4/2010-18:14:45
 | 0.1uF        C23       ;             
 | 1.5k         R1        ;             
 | 1.5k         R12       ;             
+| 1.5k         R19       ;             
+| 1.5k         R20       ;             
 | 10k          R2        ;             
 | 10k          R3        ;             
-| 10k          R4        ;             
-| 10k          R5        ;             
 | 10k          R8        ;             
 | 10k          R16       ;             
 | 10k          R17       ;             
@@ -121,10 +122,11 @@ EESchema (20080825c)  >> Creation date: 13/4/2010-18:14:45
 | CONN_2       P3        ;             
 | CONN_32      P8        ;             
 | CONN_32      P9        ;             
-| CONN_4X2     P2        ;             
 | CONN_4X2     P5        ;             
 | CONN_6       P4        ;             
 | DIODE        D1        ;             
+| DIODE        D5        ;             
+| DIODE        D6        ;             
 | Green        D3        ;             
 | IS62WV51216ALL U2        ;             
 | LED          D4        ;             
@@ -132,8 +134,8 @@ EESchema (20080825c)  >> Creation date: 13/4/2010-18:14:45
 | MCP1700T     MCP2      ;             
 | NPN          Q1        ;             
 | NPN          Q2        ;             
-| PWR_JACK     PWR_JACK1 ;             
 | Red          D2        ;             
+| SD           SD1       ;             
 | STM32F103ZE  U1        ;             
 | USB          USB1      ;             
 #End Cmp

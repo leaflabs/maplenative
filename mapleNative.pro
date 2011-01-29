@@ -1,5 +1,5 @@
-update=6/1/2011-19:55:46
-last_client=pcbnew
+update=29/1/2011-02:34:45
+last_client=cvpcb
 [eeschema]
 version=1
 LibDir=
@@ -107,8 +107,8 @@ ShowRat=1
 ShowMRa=0
 [pcbnew/libraries]
 LibDir=
-LibName1=supports
-LibName2=/home/jessb/Projects/leafhw/hardware-lib/leaf
+LibName1=/home/jessb/Projects/leafhw/hardware-lib/leaf
+LibName2=supports
 LibName3=connect
 LibName4=discret
 LibName5=pin_array
@@ -116,3 +116,10 @@ LibName6=divers
 LibName7=libcms
 LibName8=display
 LibName9=valves
+[cvpcb]
+version=1
+NetIExt=.net
+[cvpcb/libraries]
+EquName1=devcms
+[common]
+NetDir=
