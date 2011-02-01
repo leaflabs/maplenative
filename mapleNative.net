@@ -1,14 +1,14 @@
-# EESchema Netlist Version 1.1 created  1/2/2011-21:07:35
+# EESchema Netlist Version 1.1 created  1/2/2011-21:10:59
 (
  ( /4B91426B/4C4494CE $noname  SD1 SD {Lib=SD}
-  (    1 ? )
-  (    2 ? )
-  (    3 ? )
+  (    1 N-000029 )
+  (    2 N-000091 )
+  (    3 N-000043 )
   (    4 VCC )
-  (    5 ? )
+  (    5 N-000028 )
   (    6 GND )
-  (    7 ? )
-  (    8 ? )
+  (    7 N-000008 )
+  (    8 N-000090 )
  )
  ( /4B91426B/4BAE3E1B $noname  P7 CONN_16 {Lib=CONN_16}
   (    1 N-000083 )
@@ -846,6 +846,7 @@ Net 7 ""
  P5 3
 Net 8 ""
  U1 98
+ SD1 7
  P8 18
 Net 9 ""
  U1 4
@@ -907,9 +908,11 @@ Net 27 ""
  P8 24
 Net 28 ""
  U1 113
+ SD1 5
  P8 22
 Net 29 ""
  U1 111
+ SD1 1
  P8 20
 Net 30 ""
  U1 68
@@ -965,6 +968,7 @@ Net 42 ""
  P6 24
 Net 43 ""
  U1 116
+ SD1 3
  P9 31
 Net 44 ""
  U1 114
@@ -1138,9 +1142,11 @@ Net 89 ""
  P8 17
 Net 90 ""
  U1 99
+ SD1 8
  P8 19
 Net 91 ""
  U1 112
+ SD1 2
  P8 21
 Net 92 ""
  U1 7

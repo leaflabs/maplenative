@@ -13,6 +13,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Kmarq B 7750 2150 "Warning Pin BiDi Unconnected" F=1
 $Comp
 L GND #PWR01
 U 1 1 4D0B7F5F
@@ -298,7 +299,6 @@ Wire Wire Line
 	8100 4550 8000 4550
 Wire Wire Line
 	6600 3850 6700 3850
-Kmarq B 3750 3300 "Warning Pin passive Unconnected" F=1
 $Comp
 L GND #PWR02
 U 1 1 4C51E96A
@@ -327,17 +327,17 @@ F 1 "VCC" H 8750 1850 30  0000 C C
 	1    0    0    -1  
 $EndComp
 Text GLabel 7850 2250 2    60   BiDi
-20/SDIO_D1
+18/SDIO_D1
 Text GLabel 7850 2150 2    60   BiDi
-19/SDIO_D0
+17/SDIO_D0
 Text GLabel 7850 1950 2    60   BiDi
-23/SDIO_CK
+21/SDIO_CK
 Text GLabel 7850 1750 2    60   BiDi
-40/SDIO_CMD
+33/SDIO_CMD
 Text GLabel 7850 1650 2    60   BiDi
-22/SDIO_D3
+20/SDIO_D3
 Text GLabel 7850 1550 2    60   BiDi
-21/SDIO_D2
+19/SDIO_D2
 $Comp
 L SD SD1
 U 1 1 4C4494CE
