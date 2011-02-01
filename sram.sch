@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves
+LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./mapleNative.cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VCC #PWR041
+L VCC #PWR042
 U 1 1 4B918A73
 P 7850 3900
-F 0 "#PWR041" H 7850 4000 30  0001 C C
+F 0 "#PWR042" H 7850 4000 30  0001 C C
 F 1 "VCC" H 7850 4000 30  0000 C C
 	1    7850 3900
 	1    0    0    -1  
@@ -183,19 +183,19 @@ FSMC_A8
 Text GLabel 4350 3100 0    60   Input
 FSMC_A7
 $Comp
-L GND #PWR042
+L GND #PWR043
 U 1 1 4B8F0473
 P 3600 4850
-F 0 "#PWR042" H 3600 4850 30  0001 C C
+F 0 "#PWR043" H 3600 4850 30  0001 C C
 F 1 "GND" H 3600 4780 30  0001 C C
 	1    3600 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR043
+L VCC #PWR044
 U 1 1 4B8F0470
 P 3600 4250
-F 0 "#PWR043" H 3600 4350 30  0001 C C
+F 0 "#PWR044" H 3600 4350 30  0001 C C
 F 1 "VCC" H 3600 4350 30  0000 C C
 	1    3600 4250
 	1    0    0    -1  
