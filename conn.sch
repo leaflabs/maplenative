@@ -13,7 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Kmarq B 7750 2150 "Warning Pin BiDi Unconnected" F=1
 $Comp
 L GND #PWR01
 U 1 1 4D0B7F5F
@@ -546,115 +545,115 @@ FSMC_D14
 Text GLabel 3850 6300 2    60   BiDi
 FSMC_D15
 Text GLabel 8000 5750 0    60   BiDi
-40
+33
 Text GLabel 8000 6150 0    60   BiDi
-36
-Text GLabel 8000 5950 0    60   BiDi
-38
-Text GLabel 8000 5850 0    60   BiDi
-39
-Text GLabel 8000 6050 0    60   BiDi
-37
-Text GLabel 8000 5650 0    60   BiDi
-41
-Text GLabel 8000 5550 0    60   BiDi
-42
-Text GLabel 8000 4650 0    60   BiDi
-51
-Text GLabel 8000 6250 0    60   BiDi
-35
-Text GLabel 8000 5150 0    60   BiDi
-46
-Text GLabel 8000 5050 0    60   BiDi
-47
-Text GLabel 8000 4950 0    60   BiDi
-48
-Text GLabel 8000 4850 0    60   BiDi
-49
-Text GLabel 8000 4750 0    60   BiDi
-50
-Text GLabel 8000 6350 0    60   BiDi
-34
-Text GLabel 8000 6450 0    60   BiDi
-33/SDIO_CMD
-Text GLabel 6600 4150 0    60   BiDi
-7
-Text GLabel 6600 4050 0    60   BiDi
-6
-Text GLabel 6600 3950 0    60   BiDi
-5
-Text GLabel 6600 3850 0    60   BiDi
-4
-Text GLabel 6600 3750 0    60   BiDi
-3
-Text GLabel 6600 3650 0    60   BiDi
-2
-Text GLabel 6600 6350 0    60   BiDi
 29
-Text GLabel 8000 5450 0    60   BiDi
-43
-Text GLabel 8000 5350 0    60   BiDi
+Text GLabel 8000 5950 0    60   BiDi
+31
+Text GLabel 8000 5850 0    60   BiDi
+32
+Text GLabel 8000 6050 0    60   BiDi
+30
+Text GLabel 8000 5650 0    60   BiDi
+34
+Text GLabel 8000 5550 0    60   BiDi
+35
+Text GLabel 8000 4650 0    60   BiDi
 44
-Text GLabel 8000 5250 0    60   BiDi
-45
-Text GLabel 8000 4350 0    60   BiDi
-54
-Text GLabel 8000 4450 0    60   BiDi
-53
-Text GLabel 6600 5850 0    60   BiDi
-24
-Text GLabel 6600 5750 0    60   BiDi
-23
-Text GLabel 6600 5650 0    60   BiDi
-22
-Text GLabel 6600 5550 0    60   BiDi
-21/SDIO_CK
-Text GLabel 6600 5450 0    60   BiDi
-20/SDIO_D3
-Text GLabel 6600 5350 0    60   BiDi
-19/SDIO_D2
-Text GLabel 6600 5250 0    60   BiDi
-18/SDIO_D1
-Text GLabel 6600 5150 0    60   BiDi
-17/SDIO_D0
-Text GLabel 6600 5050 0    60   BiDi
-16
-Text GLabel 6600 4950 0    60   BiDi
-15
-Text GLabel 6600 4850 0    60   BiDi
-14
-Text GLabel 6600 4750 0    60   BiDi
-13
-Text GLabel 6600 4650 0    60   BiDi
-12
-Text GLabel 6600 4550 0    60   BiDi
-11
-Text GLabel 6600 4450 0    60   BiDi
-10
-Text GLabel 6600 4350 0    60   BiDi
-9
-Text GLabel 8000 3550 0    60   BiDi
-62
-Text GLabel 6600 6250 0    60   BiDi
+Text GLabel 8000 6250 0    60   BiDi
 28
-Text GLabel 6600 6150 0    60   BiDi
+Text GLabel 8000 5150 0    60   BiDi
+39
+Text GLabel 8000 5050 0    60   BiDi
+40
+Text GLabel 8000 4950 0    60   BiDi
+41
+Text GLabel 8000 4850 0    60   BiDi
+42
+Text GLabel 8000 4750 0    60   BiDi
+43
+Text GLabel 8000 6350 0    60   BiDi
 27
+Text GLabel 8000 6450 0    60   BiDi
+26/SDIO_CMD
+Text GLabel 6600 4150 0    60   BiDi
+5
+Text GLabel 6600 4050 0    60   BiDi
+4
+Text GLabel 6600 3950 0    60   BiDi
+3
+Text GLabel 6600 3850 0    60   BiDi
+2
+Text GLabel 6600 3750 0    60   BiDi
+1
+Text GLabel 6600 3650 0    60   BiDi
+0
+Text GLabel 6600 6350 0    60   BiDi
+25
+Text GLabel 8000 5450 0    60   BiDi
+36
+Text GLabel 8000 5350 0    60   BiDi
+37
+Text GLabel 8000 5250 0    60   BiDi
+38
+Text GLabel 8000 4350 0    60   BiDi
+46
+Text GLabel 8000 4450 0    60   BiDi
+45
+Text GLabel 6600 5850 0    60   BiDi
+21
+Text GLabel 6600 5750 0    60   BiDi
+20
+Text GLabel 6600 5650 0    60   BiDi
+19
+Text GLabel 6600 5550 0    60   BiDi
+18/SDIO_CK
+Text GLabel 6600 5450 0    60   BiDi
+17/SDIO_D3
+Text GLabel 6600 5350 0    60   BiDi
+16/SDIO_D2
+Text GLabel 6600 5250 0    60   BiDi
+15/SDIO_D1
+Text GLabel 6600 5150 0    60   BiDi
+14/SDIO_D0
+Text GLabel 6600 5050 0    60   BiDi
+13
+Text GLabel 6600 4950 0    60   BiDi
+12
+Text GLabel 6600 4850 0    60   BiDi
+11
+Text GLabel 6600 4750 0    60   BiDi
+10
+Text GLabel 6600 4650 0    60   BiDi
+9
+Text GLabel 6600 4550 0    60   BiDi
+8
+Text GLabel 6600 4450 0    60   BiDi
+7
+Text GLabel 6600 4350 0    60   BiDi
+6
+Text GLabel 8000 3550 0    60   BiDi
+54
+Text GLabel 6600 6250 0    60   BiDi
+24
+Text GLabel 6600 6150 0    60   BiDi
+23
 Text GLabel 6600 6050 0    60   BiDi
-26
+22
 Text GLabel 8000 4250 0    60   BiDi
-55
+47
 Text GLabel 8000 4150 0    60   BiDi
-56
+48
 Text GLabel 8000 4050 0    60   BiDi
-57
+49
 Text GLabel 8000 3950 0    60   BiDi
-58
+50
 Text GLabel 8000 3850 0    60   BiDi
-59
+51
 Text GLabel 8000 3750 0    60   BiDi
-60
+52
 Text GLabel 8000 3650 0    60   BiDi
-61
+53
 Text GLabel 2850 1900 0    60   BiDi
 JTAG-TRST
 Text GLabel 2850 1800 0    60   BiDi

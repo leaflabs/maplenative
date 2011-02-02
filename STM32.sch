@@ -387,10 +387,10 @@ Wire Wire Line
 	10350 1850 10350 1950
 NoConn ~ 7550 1550
 $Comp
-L GND #PWR045
+L GND #PWR046
 U 1 1 4BBE4414
 P 10350 1950
-F 0 "#PWR045" H 10350 1950 30  0001 C C
+F 0 "#PWR046" H 10350 1950 30  0001 C C
 F 1 "GND" H 10350 1880 30  0001 C C
 	1    10350 1950
 	1    0    0    -1  
@@ -443,19 +443,19 @@ F 1 "STM32F103ZE" H 5750 3600 60  0000 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR046
+L VCC #PWR047
 U 1 1 4B918520
 P 5750 1350
-F 0 "#PWR046" H 5750 1450 30  0001 C C
+F 0 "#PWR047" H 5750 1450 30  0001 C C
 F 1 "VCC" H 5750 1450 30  0000 C C
 	1    5750 1350
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR047
+L GND #PWR048
 U 1 1 4B915FBB
 P 1950 3850
-F 0 "#PWR047" H 1950 3850 30  0001 C C
+F 0 "#PWR048" H 1950 3850 30  0001 C C
 F 1 "GND" H 1950 3780 30  0001 C C
 	1    1950 3850
 	1    0    0    -1  
@@ -475,33 +475,33 @@ JTAG-TCK
 Text GLabel 2750 3150 0    60   BiDi
 JTAG-TMS
 Text GLabel 6850 6350 1    60   BiDi
-49
+42
 Text GLabel 6950 6350 1    60   BiDi
-48
+41
 Text GLabel 7050 6350 1    60   BiDi
-47
+40
 Text GLabel 7150 6350 1    60   BiDi
-46
+39
 Text GLabel 5150 6350 1    60   BiDi
 FSMC_NE2
 Text GLabel 4650 6350 1    60   BiDi
-39
+32
 Text GLabel 6650 6350 1    60   BiDi
-51
+44
 Text GLabel 6750 6350 1    60   BiDi
-50
+43
 Text GLabel 4750 6350 1    60   BiDi
-38
+31
 Text GLabel 4850 6350 1    60   BiDi
-37
+30
 Text GLabel 4950 6350 1    60   BiDi
-36
+29
 Text GLabel 5250 6350 1    60   BiDi
-40
+33
 Text GLabel 5350 6350 1    60   BiDi
-41
+34
 Text GLabel 5450 6350 1    60   BiDi
-42
+35
 Text GLabel 8900 5050 2    60   Output
 FSMC_A22
 Text GLabel 8900 4950 2    60   Output
@@ -513,93 +513,93 @@ FSMC_A19
 Text GLabel 8900 3450 2    60   BiDi
 FSMC_NE1
 Text GLabel 8900 3350 2    60   BiDi
-35
+28
 Text GLabel 8900 3050 2    60   BiDi
-34
+27
 Text GLabel 8900 2950 2    60   BiDi
-33/SDIO_CMD
+26/SDIO_CMD
 Text GLabel 8900 2850 2    60   BiDi
 FSMC_D3
 Text GLabel 8900 2450 2    60   BiDi
-23
+20
 Text GLabel 8900 2350 2    60   BiDi
-22
+19
 Text GLabel 8900 2250 2    60   BiDi
-21/SDIO_CK
+18/SDIO_CK
 Text GLabel 8900 2150 2    60   BiDi
-20/SDIO_D3
+17/SDIO_D3
 Text GLabel 8900 2050 2    60   BiDi
-19/SDIO_D2
+16/SDIO_D2
 Text GLabel 8900 1950 2    60   BiDi
-18/SDIO_D1
+15/SDIO_D1
 Text GLabel 8900 1850 2    60   BiDi
-17/SDIO_D0
+14/SDIO_D0
 Text GLabel 2750 5950 0    60   BiDi
-16
-Text GLabel 2750 5850 0    60   BiDi
-15
-Text GLabel 2750 5750 0    60   BiDi
-14
-Text GLabel 2750 5650 0    60   BiDi
 13
-Text GLabel 2750 5550 0    60   BiDi
+Text GLabel 2750 5850 0    60   BiDi
 12
-Text GLabel 2750 5450 0    60   BiDi
+Text GLabel 2750 5750 0    60   BiDi
 11
-Text GLabel 2750 5350 0    60   BiDi
+Text GLabel 2750 5650 0    60   BiDi
 10
-Text GLabel 2750 5250 0    60   BiDi
+Text GLabel 2750 5550 0    60   BiDi
 9
-Text GLabel 2750 2850 0    60   BiDi
-28
-Text GLabel 2750 5050 0    60   BiDi
+Text GLabel 2750 5450 0    60   BiDi
+8
+Text GLabel 2750 5350 0    60   BiDi
 7
-Text GLabel 2750 4950 0    60   BiDi
+Text GLabel 2750 5250 0    60   BiDi
 6
-Text GLabel 2750 4850 0    60   BiDi
+Text GLabel 2750 2850 0    60   BiDi
+24
+Text GLabel 2750 5050 0    60   BiDi
 5
-Text GLabel 2750 4750 0    60   BiDi
+Text GLabel 2750 4950 0    60   BiDi
 4
-Text GLabel 2750 4650 0    60   BiDi
+Text GLabel 2750 4850 0    60   BiDi
 3
-Text GLabel 2750 4550 0    60   BiDi
+Text GLabel 2750 4750 0    60   BiDi
 2
+Text GLabel 2750 4650 0    60   BiDi
+1
+Text GLabel 2750 4550 0    60   BiDi
+0
 Text GLabel 2750 4450 0    60   BiDi
-29
+25
 Text GLabel 2750 4350 0    60   BiDi
 DISC
 Text GLabel 2750 4250 0    60   BiDi
-45
+38
 Text GLabel 2750 4150 0    60   BiDi
-44
+37
 Text GLabel 2750 4050 0    60   BiDi
-43
+36
 Text GLabel 2750 3650 0    60   BiDi
-53
+45
 Text GLabel 2750 1850 0    60   BiDi
-55
+47
 Text GLabel 2750 3550 0    60   BiDi
-54
+46
 Text GLabel 10350 2550 2    60   BiDi
 24
 Text GLabel 2750 2750 0    60   BiDi
-27
+23
 Text GLabel 2750 2650 0    60   BiDi
-26
+22
 Text GLabel 2750 2550 0    60   BiDi
-62
+54
 Text GLabel 2750 2450 0    60   BiDi
-61
+53
 Text GLabel 2750 2350 0    60   BiDi
-60
+52
 Text GLabel 2750 2250 0    60   BiDi
-59
+51
 Text GLabel 2750 2150 0    60   BiDi
-58
+50
 Text GLabel 2750 2050 0    60   BiDi
-57
+49
 Text GLabel 2750 1950 0    60   BiDi
-56
+48
 Text GLabel 8900 5950 2    60   BiDi
 FSMC_D12
 Text GLabel 8900 5850 2    60   BiDi
@@ -681,10 +681,10 @@ FSMC_NOE
 Text GLabel 8900 2750 2    60   BiDi
 FSMC_D2
 $Comp
-L GND #PWR048
+L GND #PWR049
 U 1 1 4B8B0CB9
 P 4900 1350
-F 0 "#PWR048" H 4900 1350 30  0001 C C
+F 0 "#PWR049" H 4900 1350 30  0001 C C
 F 1 "GND" H 4900 1280 30  0001 C C
 	1    4900 1350
 	1    0    0    1   
@@ -699,10 +699,10 @@ F 1 "VAA" H 4700 1460 30  0000 C C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR049
+L GND #PWR050
 U 1 1 4B8B0C8C
 P 6950 1350
-F 0 "#PWR049" H 6950 1350 30  0001 C C
+F 0 "#PWR050" H 6950 1350 30  0001 C C
 F 1 "GND" H 6950 1280 30  0001 C C
 	1    6950 1350
 	1    0    0    1   
@@ -712,10 +712,10 @@ BOOT0
 Text Label 3850 6350 0    60   ~
 BOOT0
 $Comp
-L VCC #PWR050
+L VCC #PWR051
 U 1 1 4B8ADEC7
 P 3300 6600
-F 0 "#PWR050" H 3300 6700 30  0001 C C
+F 0 "#PWR051" H 3300 6700 30  0001 C C
 F 1 "VCC" H 3300 6700 30  0000 C C
 	1    3300 6600
 	-1   0    0    -1  
@@ -730,10 +730,10 @@ F 1 "8Mhz" H 8500 1200 50  0000 L C
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR051
+L GND #PWR052
 U 1 1 4B8383A4
 P 9350 1500
-F 0 "#PWR051" H 9350 1500 30  0001 C C
+F 0 "#PWR052" H 9350 1500 30  0001 C C
 F 1 "GND" H 9350 1430 30  0001 C C
 	1    9350 1500
 	1    0    0    -1  
@@ -757,10 +757,10 @@ F 1 "16pF" H 8950 950 50  0000 L C
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR052
+L GND #PWR053
 U 1 1 4B83757E
 P 8250 800
-F 0 "#PWR052" H 8250 800 30  0001 C C
+F 0 "#PWR053" H 8250 800 30  0001 C C
 F 1 "GND" H 8250 730 30  0001 C C
 	1    8250 800 
 	1    0    0    -1  
@@ -775,19 +775,19 @@ F 1 "10k" V 8000 700 50  0000 C C
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR053
+L GND #PWR054
 U 1 1 4B83757C
 P 1050 7300
-F 0 "#PWR053" H 1050 7300 30  0001 C C
+F 0 "#PWR054" H 1050 7300 30  0001 C C
 F 1 "GND" H 1050 7230 30  0001 C C
 	1    1050 7300
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR054
+L VCC #PWR055
 U 1 1 4B83757A
 P 1050 6200
-F 0 "#PWR054" H 1050 6300 30  0001 C C
+F 0 "#PWR055" H 1050 6300 30  0001 C C
 F 1 "VCC" H 1050 6300 30  0000 C C
 	1    1050 6200
 	1    0    0    -1  
