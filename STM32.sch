@@ -581,7 +581,7 @@ Text GLabel 2750 1850 0    60   BiDi
 Text GLabel 2750 3550 0    60   BiDi
 46
 Text GLabel 10350 2550 2    60   BiDi
-24
+21
 Text GLabel 2750 2750 0    60   BiDi
 23
 Text GLabel 2750 2650 0    60   BiDi
