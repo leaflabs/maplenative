@@ -483,7 +483,7 @@ Text GLabel 7050 6350 1    60   BiDi
 Text GLabel 7150 6350 1    60   BiDi
 39
 Text GLabel 5150 6350 1    60   BiDi
-FSMC_NE2
+79/FSMC_NE2
 Text GLabel 4650 6350 1    60   BiDi
 32
 Text GLabel 6650 6350 1    60   BiDi
@@ -503,13 +503,13 @@ Text GLabel 5350 6350 1    60   BiDi
 Text GLabel 5450 6350 1    60   BiDi
 35
 Text GLabel 8900 5050 2    60   Output
-FSMC_A22
+74/FSMC_A22
 Text GLabel 8900 4950 2    60   Output
-FSMC_A21
+71/FSMC_A21
 Text GLabel 8900 4850 2    60   Output
-FSMC_A20
+68/FSMC_A20
 Text GLabel 8900 4750 2    60   Output
-FSMC_A19
+65/FSMC_A19
 Text GLabel 8900 3450 2    60   BiDi
 FSMC_NE1
 Text GLabel 8900 3350 2    60   BiDi
@@ -519,7 +519,7 @@ Text GLabel 8900 3050 2    60   BiDi
 Text GLabel 8900 2950 2    60   BiDi
 26/SDIO_CMD
 Text GLabel 8900 2850 2    60   BiDi
-FSMC_D3
+66/FSMC_D3
 Text GLabel 8900 2450 2    60   BiDi
 20
 Text GLabel 8900 2350 2    60   BiDi
@@ -601,85 +601,85 @@ Text GLabel 2750 2050 0    60   BiDi
 Text GLabel 2750 1950 0    60   BiDi
 48
 Text GLabel 8900 5950 2    60   BiDi
-FSMC_D12
+92/FSMC_D12
 Text GLabel 8900 5850 2    60   BiDi
-FSMC_D11
+89/FSMC_D11
 Text GLabel 8900 5750 2    60   BiDi
-FSMC_D10
+86/FSMC_D10
 Text GLabel 8900 5650 2    60   BiDi
-FSMC_D9
+83/FSMC_D9
 Text GLabel 8900 5550 2    60   BiDi
-FSMC_D8
+80/FSMC_D8
 Text GLabel 8900 5450 2    60   BiDi
-FSMC_D7
+77/FSMC_D7
 Text GLabel 8900 5350 2    60   BiDi
-FSMC_D6
+75/FSMC_D6
 Text GLabel 8900 5250 2    60   BiDi
-FSMC_D5
+72/FSMC_D5
 Text GLabel 8900 5150 2    60   BiDi
-FSMC_D4
+69/FSMC_D4
 Text GLabel 8900 4550 2    60   BiDi
-FSMC_NBL1
+91/FSMC_NBL1
 Text GLabel 8900 4450 2    60   BiDi
-FSMC_NBL0
+94/FSMC_NBL0
 Text GLabel 8900 4250 2    60   BiDi
-FSMC_D1
+60/FSMC_D1
 Text GLabel 8900 4150 2    60   BiDi
-FSMC_D0
+57/FSMC_D0
 Text GLabel 8900 4050 2    60   Output
-FSMC_A18
+62/FSMC_A18
 Text GLabel 8900 3950 2    60   Output
-FSMC_A17
+59/FSMC_A17
 Text GLabel 8900 3850 2    60   Output
-FSMC_A16
+56/FSMC_A16
 Text GLabel 8900 3750 2    60   BiDi
-FSMC_D15
+99/FSMC_D15
 Text GLabel 8900 3650 2    60   BiDi
-FSMC_D14
+97/FSMC_D14
 Text GLabel 8900 3550 2    60   BiDi
-FSMC_D13
+95/FSMC_D13
 Text GLabel 7750 6350 1    60   Output
-FSMC_A0
+55/FSMC_A0
 Text GLabel 7650 6350 1    60   Output
-FSMC_A1
+58/FSMC_A1
 Text GLabel 7550 6350 1    60   Output
-FSMC_A2
+61/FSMC_A2
 Text GLabel 7450 6350 1    60   Output
-FSMC_A3
+64/FSMC_A3
 Text GLabel 7350 6350 1    60   Output
-FSMC_A4
+67/FSMC_A4
 Text GLabel 7250 6350 1    60   Output
-FSMC_A5
+70/FSMC_A5
 Text GLabel 6550 6350 1    60   Output
-FSMC_A6
+73/FSMC_A6
 Text GLabel 6450 6350 1    60   Output
-FSMC_A7
+76/FSMC_A7
 Text GLabel 6350 6350 1    60   Output
-FSMC_A8
+78/FSMC_A8
 Text GLabel 6250 6350 1    60   Output
-FSMC_A9
+81/FSMC_A9
 Text GLabel 6050 6350 1    60   Output
-FSMC_A10
+84/FSMC_A10
 Text GLabel 5850 6350 1    60   Output
-FSMC_A12
+90/FSMC_A12
 Text GLabel 5950 6350 1    60   Output
-FSMC_A11
+87/FSMC_A11
 Text GLabel 5750 6350 1    60   Output
-FSMC_A13
+93/FSMC_A13
 Text GLabel 5650 6350 1    60   Output
-FSMC_A14
+96/FSMC_A14
 Text GLabel 5550 6350 1    60   Output
-FSMC_A15
+98/FSMC_A15
 Text GLabel 1750 6800 2    60   BiDi
 JTAG-TRST
 Text GLabel 5050 6350 1    60   BiDi
-FSMC_NE3
+82/FSMC_NE3
 Text GLabel 8900 3250 2    60   BiDi
-FSMC_NWE
+85/FSMC_NWE
 Text GLabel 8900 3150 2    60   BiDi
-FSMC_NOE
+88FSMC_NOE
 Text GLabel 8900 2750 2    60   BiDi
-FSMC_D2
+63/FSMC_D2
 $Comp
 L GND #PWR049
 U 1 1 4B8B0CB9

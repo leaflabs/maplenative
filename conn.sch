@@ -365,7 +365,7 @@ F 1 "VCC" H 4650 4000 30  0000 C C
 	1    0    0    -1  
 $EndComp
 Text GLabel 3850 3400 2    60   BiDi
-FSMC_NE2
+79/FSMC_NE2
 $Comp
 L CONN_16 P7
 U 1 1 4BAE3E1B
@@ -376,13 +376,13 @@ F 1 "CONN_16" V 3400 5550 60  0000 C C
 	-1   0    0    -1  
 $EndComp
 Text GLabel 3850 3200 2    60   Input
-FSMC_A22
+74/FSMC_A22
 Text GLabel 3850 3000 2    60   Input
-FSMC_A20
+68/FSMC_A20
 Text GLabel 3850 2900 2    60   Input
-FSMC_A19
+65/FSMC_A19
 Text GLabel 3850 3100 2    60   Input
-FSMC_A21
+71/FSMC_A21
 $Comp
 L CONN_16X2 P6
 U 1 1 4BAE3BF5
@@ -465,85 +465,85 @@ F 1 "GND" H 6600 3280 30  0001 C C
 	1    0    0    1   
 $EndComp
 Text GLabel 3850 3500 2    60   BiDi
-FSMC_NE3
+82/FSMC_NE3
 Text GLabel 3850 3900 2    60   BiDi
-FSMC_NBL0
+94/FSMC_NBL0
 Text GLabel 3850 3800 2    60   BiDi
-FSMC_NBL1
+91/FSMC_NBL1
 Text GLabel 3850 3600 2    60   BiDi
-FSMC_NWE
+85/FSMC_NWE
 Text GLabel 3850 3700 2    60   BiDi
-FSMC_NOE
+88/FSMC_NOE
 Text GLabel 3850 2700 2    60   Input
-FSMC_A17
+59/FSMC_A17
 Text GLabel 3850 2600 2    60   Input
-FSMC_A16
+56/FSMC_A16
 Text GLabel 2850 4100 0    60   Input
-FSMC_A15
+98/FSMC_A15
 Text GLabel 2850 4000 0    60   Input
-FSMC_A14
+96/FSMC_A14
 Text GLabel 2850 3900 0    60   Input
-FSMC_A13
+93/FSMC_A13
 Text GLabel 2850 3800 0    60   Input
-FSMC_A12
+90/FSMC_A12
 Text GLabel 2850 3700 0    60   Input
-FSMC_A11
+87/FSMC_A11
 Text GLabel 2850 3600 0    60   Input
-FSMC_A10
+84/FSMC_A10
 Text GLabel 2850 3500 0    60   Input
-FSMC_A9
+81/FSMC_A9
 Text GLabel 2850 3400 0    60   Input
-FSMC_A8
+78/FSMC_A8
 Text GLabel 2850 3300 0    60   Input
-FSMC_A7
+76/FSMC_A7
 Text GLabel 3850 2800 2    60   Input
-FSMC_A18
+62/FSMC_A18
 Text GLabel 2850 3200 0    60   Input
-FSMC_A6
+73/FSMC_A6
 Text GLabel 2850 3100 0    60   Input
-FSMC_A5
+70/FSMC_A5
 Text GLabel 2850 3000 0    60   Input
-FSMC_A4
+67/FSMC_A4
 Text GLabel 2850 2900 0    60   Input
-FSMC_A3
+64/FSMC_A3
 Text GLabel 2850 2800 0    60   Input
-FSMC_A2
+61/FSMC_A2
 Text GLabel 2850 2700 0    60   Input
-FSMC_A1
+58/FSMC_A1
 Text GLabel 2850 2600 0    60   Input
-FSMC_A0
+55/FSMC_A0
 Text GLabel 3850 4800 2    60   BiDi
-FSMC_D0
+57/FSMC_D0
 Text GLabel 3850 4900 2    60   BiDi
-FSMC_D1
+60/FSMC_D1
 Text GLabel 3850 5000 2    60   BiDi
-FSMC_D2
+63/FSMC_D2
 Text GLabel 3850 5100 2    60   BiDi
-FSMC_D3
+66/FSMC_D3
 Text GLabel 3850 5200 2    60   BiDi
-FSMC_D4
+69/FSMC_D4
 Text GLabel 3850 5300 2    60   BiDi
-FSMC_D5
+72/FSMC_D5
 Text GLabel 3850 5400 2    60   BiDi
-FSMC_D6
+75/FSMC_D6
 Text GLabel 3850 5500 2    60   BiDi
-FSMC_D7
+77/FSMC_D7
 Text GLabel 3850 5600 2    60   BiDi
-FSMC_D8
+80/FSMC_D8
 Text GLabel 3850 5700 2    60   BiDi
-FSMC_D9
+83/FSMC_D9
 Text GLabel 3850 5800 2    60   BiDi
-FSMC_D10
+86/FSMC_D10
 Text GLabel 3850 5900 2    60   BiDi
-FSMC_D11
+89/FSMC_D11
 Text GLabel 3850 6000 2    60   BiDi
-FSMC_D12
+92/FSMC_D12
 Text GLabel 3850 6100 2    60   BiDi
-FSMC_D13
+95/FSMC_D13
 Text GLabel 3850 6200 2    60   BiDi
-FSMC_D14
+97/FSMC_D14
 Text GLabel 3850 6300 2    60   BiDi
-FSMC_D15
+99/FSMC_D15
 Text GLabel 8000 5750 0    60   BiDi
 33
 Text GLabel 8000 6150 0    60   BiDi
