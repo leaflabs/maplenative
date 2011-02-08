@@ -326,17 +326,17 @@ F 1 "VCC" H 8750 1850 30  0000 C C
 	1    0    0    -1  
 $EndComp
 Text GLabel 7850 2250 2    60   BiDi
-15/SDIO_D1
+16/SDIO_D1
 Text GLabel 7850 2150 2    60   BiDi
-14/SDIO_D0
+15/SDIO_D0
 Text GLabel 7850 1950 2    60   BiDi
-18/SDIO_CK
+19/SDIO_CK
 Text GLabel 7850 1750 2    60   BiDi
-26/SDIO_CMD
+27/SDIO_CMD
 Text GLabel 7850 1650 2    60   BiDi
-17/SDIO_D3
+18/SDIO_D3
 Text GLabel 7850 1550 2    60   BiDi
-16/SDIO_D2
+17/SDIO_D2
 $Comp
 L SD SD1
 U 1 1 4C4494CE
@@ -365,7 +365,7 @@ F 1 "VCC" H 4650 4000 30  0000 C C
 	1    0    0    -1  
 $EndComp
 Text GLabel 3850 3400 2    60   BiDi
-79/FSMC_NE2
+80/FSMC_NE2
 $Comp
 L CONN_16 P7
 U 1 1 4BAE3E1B
@@ -376,13 +376,13 @@ F 1 "CONN_16" V 3400 5550 60  0000 C C
 	-1   0    0    -1  
 $EndComp
 Text GLabel 3850 3200 2    60   Input
-74/FSMC_A22
+75/FSMC_A22
 Text GLabel 3850 3000 2    60   Input
-68/FSMC_A20
+69/FSMC_A20
 Text GLabel 3850 2900 2    60   Input
-65/FSMC_A19
+66/FSMC_A19
 Text GLabel 3850 3100 2    60   Input
-71/FSMC_A21
+72/FSMC_A21
 $Comp
 L CONN_16X2 P6
 U 1 1 4BAE3BF5
@@ -465,117 +465,117 @@ F 1 "GND" H 6600 3280 30  0001 C C
 	1    0    0    1   
 $EndComp
 Text GLabel 3850 3500 2    60   BiDi
-82/FSMC_NE3
+83/FSMC_NE3
 Text GLabel 3850 3900 2    60   BiDi
-94/FSMC_NBL0
+95/FSMC_NBL0
 Text GLabel 3850 3800 2    60   BiDi
-91/FSMC_NBL1
+92/FSMC_NBL1
 Text GLabel 3850 3600 2    60   BiDi
-85/FSMC_NWE
+86/FSMC_NWE
 Text GLabel 3850 3700 2    60   BiDi
-88/FSMC_NOE
+89/FSMC_NOE
 Text GLabel 3850 2700 2    60   Input
-59/FSMC_A17
+60/FSMC_A17
 Text GLabel 3850 2600 2    60   Input
-56/FSMC_A16
+57/FSMC_A16
 Text GLabel 2850 4100 0    60   Input
-98/FSMC_A15
+99/FSMC_A15
 Text GLabel 2850 4000 0    60   Input
-96/FSMC_A14
+97/FSMC_A14
 Text GLabel 2850 3900 0    60   Input
-93/FSMC_A13
+94/FSMC_A13
 Text GLabel 2850 3800 0    60   Input
-90/FSMC_A12
+91/FSMC_A12
 Text GLabel 2850 3700 0    60   Input
-87/FSMC_A11
+88/FSMC_A11
 Text GLabel 2850 3600 0    60   Input
-84/FSMC_A10
+85/FSMC_A10
 Text GLabel 2850 3500 0    60   Input
-81/FSMC_A9
+82/FSMC_A9
 Text GLabel 2850 3400 0    60   Input
-78/FSMC_A8
+79/FSMC_A8
 Text GLabel 2850 3300 0    60   Input
-76/FSMC_A7
+77/FSMC_A7
 Text GLabel 3850 2800 2    60   Input
-62/FSMC_A18
+63/FSMC_A18
 Text GLabel 2850 3200 0    60   Input
-73/FSMC_A6
+74/FSMC_A6
 Text GLabel 2850 3100 0    60   Input
-70/FSMC_A5
+71/FSMC_A5
 Text GLabel 2850 3000 0    60   Input
-67/FSMC_A4
+68/FSMC_A4
 Text GLabel 2850 2900 0    60   Input
-64/FSMC_A3
+65/FSMC_A3
 Text GLabel 2850 2800 0    60   Input
-61/FSMC_A2
+62/FSMC_A2
 Text GLabel 2850 2700 0    60   Input
-58/FSMC_A1
+59/FSMC_A1
 Text GLabel 2850 2600 0    60   Input
-55/FSMC_A0
+56/FSMC_A0
 Text GLabel 3850 4800 2    60   BiDi
-57/FSMC_D0
+58/FSMC_D0
 Text GLabel 3850 4900 2    60   BiDi
-60/FSMC_D1
+61/FSMC_D1
 Text GLabel 3850 5000 2    60   BiDi
-63/FSMC_D2
+64/FSMC_D2
 Text GLabel 3850 5100 2    60   BiDi
-66/FSMC_D3
+67/FSMC_D3
 Text GLabel 3850 5200 2    60   BiDi
-69/FSMC_D4
+70/FSMC_D4
 Text GLabel 3850 5300 2    60   BiDi
-72/FSMC_D5
+73/FSMC_D5
 Text GLabel 3850 5400 2    60   BiDi
-75/FSMC_D6
+76/FSMC_D6
 Text GLabel 3850 5500 2    60   BiDi
-77/FSMC_D7
+78/FSMC_D7
 Text GLabel 3850 5600 2    60   BiDi
-80/FSMC_D8
+81/FSMC_D8
 Text GLabel 3850 5700 2    60   BiDi
-83/FSMC_D9
+84/FSMC_D9
 Text GLabel 3850 5800 2    60   BiDi
-86/FSMC_D10
+87/FSMC_D10
 Text GLabel 3850 5900 2    60   BiDi
-89/FSMC_D11
+90/FSMC_D11
 Text GLabel 3850 6000 2    60   BiDi
-92/FSMC_D12
+93/FSMC_D12
 Text GLabel 3850 6100 2    60   BiDi
-95/FSMC_D13
+96/FSMC_D13
 Text GLabel 3850 6200 2    60   BiDi
-97/FSMC_D14
+98/FSMC_D14
 Text GLabel 3850 6300 2    60   BiDi
-99/FSMC_D15
+100/FSMC_D15
 Text GLabel 8000 5750 0    60   BiDi
-33
-Text GLabel 8000 6150 0    60   BiDi
-29
-Text GLabel 8000 5950 0    60   BiDi
-31
-Text GLabel 8000 5850 0    60   BiDi
-32
-Text GLabel 8000 6050 0    60   BiDi
-30
-Text GLabel 8000 5650 0    60   BiDi
 34
-Text GLabel 8000 5550 0    60   BiDi
+Text GLabel 8000 6150 0    60   BiDi
+30
+Text GLabel 8000 5950 0    60   BiDi
+32
+Text GLabel 8000 5850 0    60   BiDi
+33
+Text GLabel 8000 6050 0    60   BiDi
+31
+Text GLabel 8000 5650 0    60   BiDi
 35
+Text GLabel 8000 5550 0    60   BiDi
+36
 Text GLabel 8000 4650 0    60   BiDi
-44
+45
 Text GLabel 8000 6250 0    60   BiDi
-28
+29
 Text GLabel 8000 5150 0    60   BiDi
-39
-Text GLabel 8000 5050 0    60   BiDi
 40
-Text GLabel 8000 4950 0    60   BiDi
+Text GLabel 8000 5050 0    60   BiDi
 41
-Text GLabel 8000 4850 0    60   BiDi
+Text GLabel 8000 4950 0    60   BiDi
 42
-Text GLabel 8000 4750 0    60   BiDi
+Text GLabel 8000 4850 0    60   BiDi
 43
+Text GLabel 8000 4750 0    60   BiDi
+44
 Text GLabel 8000 6350 0    60   BiDi
-27
+28
 Text GLabel 8000 6450 0    60   BiDi
-26/SDIO_CMD
+27/SDIO_CMD
 Text GLabel 6600 4150 0    60   BiDi
 5
 Text GLabel 6600 4050 0    60   BiDi
@@ -589,71 +589,71 @@ Text GLabel 6600 3750 0    60   BiDi
 Text GLabel 6600 3650 0    60   BiDi
 0
 Text GLabel 6600 6350 0    60   BiDi
-25
+26
 Text GLabel 8000 5450 0    60   BiDi
-36
-Text GLabel 8000 5350 0    60   BiDi
 37
-Text GLabel 8000 5250 0    60   BiDi
+Text GLabel 8000 5350 0    60   BiDi
 38
+Text GLabel 8000 5250 0    60   BiDi
+39
 Text GLabel 8000 4350 0    60   BiDi
-46
-Text GLabel 8000 4450 0    60   BiDi
-45
-Text GLabel 6600 5850 0    60   BiDi
-21
-Text GLabel 6600 5750 0    60   BiDi
-20
-Text GLabel 6600 5650 0    60   BiDi
-19
-Text GLabel 6600 5550 0    60   BiDi
-18/SDIO_CK
-Text GLabel 6600 5450 0    60   BiDi
-17/SDIO_D3
-Text GLabel 6600 5350 0    60   BiDi
-16/SDIO_D2
-Text GLabel 6600 5250 0    60   BiDi
-15/SDIO_D1
-Text GLabel 6600 5150 0    60   BiDi
-14/SDIO_D0
-Text GLabel 6600 5050 0    60   BiDi
-13
-Text GLabel 6600 4950 0    60   BiDi
-12
-Text GLabel 6600 4850 0    60   BiDi
-11
-Text GLabel 6600 4750 0    60   BiDi
-10
-Text GLabel 6600 4650 0    60   BiDi
-9
-Text GLabel 6600 4550 0    60   BiDi
-8
-Text GLabel 6600 4450 0    60   BiDi
-7
-Text GLabel 6600 4350 0    60   BiDi
-6
-Text GLabel 8000 3550 0    60   BiDi
-54
-Text GLabel 6600 6250 0    60   BiDi
-24
-Text GLabel 6600 6150 0    60   BiDi
-23
-Text GLabel 6600 6050 0    60   BiDi
-22
-Text GLabel 8000 4250 0    60   BiDi
 47
-Text GLabel 8000 4150 0    60   BiDi
+Text GLabel 8000 4450 0    60   BiDi
+46
+Text GLabel 6600 5850 0    60   BiDi
+22
+Text GLabel 6600 5750 0    60   BiDi
+21
+Text GLabel 6600 5650 0    60   BiDi
+20
+Text GLabel 6600 5550 0    60   BiDi
+19/SDIO_CK
+Text GLabel 6600 5450 0    60   BiDi
+18/SDIO_D3
+Text GLabel 6600 5350 0    60   BiDi
+17/SDIO_D2
+Text GLabel 6600 5250 0    60   BiDi
+16/SDIO_D1
+Text GLabel 6600 5150 0    60   BiDi
+15/SDIO_D0
+Text GLabel 6600 5050 0    60   BiDi
+14
+Text GLabel 6600 4950 0    60   BiDi
+13
+Text GLabel 6600 4850 0    60   BiDi
+12
+Text GLabel 6600 4750 0    60   BiDi
+11
+Text GLabel 6600 4650 0    60   BiDi
+10
+Text GLabel 6600 4550 0    60   BiDi
+9
+Text GLabel 6600 4450 0    60   BiDi
+8
+Text GLabel 6600 4350 0    60   BiDi
+7
+Text GLabel 8000 3550 0    60   BiDi
+55
+Text GLabel 6600 6250 0    60   BiDi
+25
+Text GLabel 6600 6150 0    60   BiDi
+24
+Text GLabel 6600 6050 0    60   BiDi
+23
+Text GLabel 8000 4250 0    60   BiDi
 48
-Text GLabel 8000 4050 0    60   BiDi
+Text GLabel 8000 4150 0    60   BiDi
 49
-Text GLabel 8000 3950 0    60   BiDi
+Text GLabel 8000 4050 0    60   BiDi
 50
-Text GLabel 8000 3850 0    60   BiDi
+Text GLabel 8000 3950 0    60   BiDi
 51
-Text GLabel 8000 3750 0    60   BiDi
+Text GLabel 8000 3850 0    60   BiDi
 52
-Text GLabel 8000 3650 0    60   BiDi
+Text GLabel 8000 3750 0    60   BiDi
 53
+Text GLabel 8000 3650 0    60   BiDi
+54
 Text GLabel 2850 1900 0    60   BiDi
 JTAG-TRST
 Text GLabel 2850 1800 0    60   BiDi
