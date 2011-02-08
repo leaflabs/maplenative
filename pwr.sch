@@ -354,7 +354,7 @@ F 1 "VCC" H 8600 2450 30  0000 C C
 	1    0    0    -1  
 $EndComp
 Text GLabel 9350 2350 0    60   BiDi
-JTAG-TRST
+RST
 NoConn ~ 8250 5750
 $Comp
 L VAA #PWR35

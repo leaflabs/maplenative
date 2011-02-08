@@ -677,7 +677,7 @@ Text GLabel 5050 6350 1    60   BiDi
 Text GLabel 8900 3250 2    60   BiDi
 85/FSMC_NWE
 Text GLabel 8900 3150 2    60   BiDi
-88FSMC_NOE
+88/FSMC_NOE
 Text GLabel 8900 2750 2    60   BiDi
 63/FSMC_D2
 $Comp
