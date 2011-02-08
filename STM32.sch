@@ -432,7 +432,7 @@ F 1 "BUT" H 1050 7250 60  0001 C C
 	0    -1   -1   0   
 $EndComp
 Text GLabel 7650 1450 3    60   BiDi
-JTAG-TRST
+RST
 $Comp
 L STM32F103ZE U1
 U 1 1 4BB13396
@@ -671,7 +671,7 @@ Text GLabel 5650 6350 1    60   Output
 Text GLabel 5550 6350 1    60   Output
 98/FSMC_A15
 Text GLabel 1750 6800 2    60   BiDi
-JTAG-TRST
+RST
 Text GLabel 5050 6350 1    60   BiDi
 82/FSMC_NE3
 Text GLabel 8900 3250 2    60   BiDi
