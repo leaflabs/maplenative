@@ -13,11 +13,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Kmarq B 10350 1950 "Warning Pin power_in not driven (Net 114)" F=1
-Kmarq B 5050 1550 "Warning Pin power_in not driven (Net 112)" F=1
-Kmarq B 4650 1550 "Warning Pin power_in not driven (Net 61)" F=1
-Text GLabel 8900 4650 2    60   BiDi
-USB_P
+Text GLabel 5050 1450 3    60   BiDi
+VBAT
+Wire Wire Line
+	5250 1450 6250 1450
+Wire Wire Line
+	4750 1450 4750 1550
 Wire Wire Line
 	2750 4750 2850 4750
 Wire Wire Line
@@ -29,8 +30,6 @@ Wire Wire Line
 Wire Wire Line
 	1950 3850 1950 3750
 Connection ~ 5750 1450
-Wire Wire Line
-	6250 1450 5050 1450
 Wire Wire Line
 	5250 1450 5250 1550
 Connection ~ 1150 6800
@@ -156,10 +155,6 @@ Wire Wire Line
 Connection ~ 4900 1450
 Wire Wire Line
 	6450 1450 7450 1450
-Wire Wire Line
-	4750 1550 4750 1450
-Wire Wire Line
-	4650 1550 4650 1450
 Connection ~ 6250 1450
 Connection ~ 5350 1450
 Wire Wire Line
@@ -252,7 +247,6 @@ Wire Wire Line
 	4950 1450 4950 1550
 Wire Wire Line
 	6950 1550 6950 1350
-Connection ~ 4700 1450
 Wire Wire Line
 	3700 6350 4550 6350
 Connection ~ 3800 6350
@@ -368,16 +362,11 @@ Connection ~ 8400 1050
 Wire Wire Line
 	7950 1400 8700 1400
 Connection ~ 8400 1400
-Wire Wire Line
-	4700 1450 4700 1350
 Connection ~ 5250 1450
 Wire Wire Line
 	5750 1550 5750 1350
-Connection ~ 5150 1450
 Wire Wire Line
 	1950 3750 2850 3750
-Wire Wire Line
-	4650 1450 4750 1450
 Wire Wire Line
 	9850 2450 9850 2550
 Connection ~ 9850 2550
@@ -385,6 +374,15 @@ Wire Wire Line
 	10250 1850 10350 1850
 Wire Wire Line
 	10350 1850 10350 1950
+Wire Wire Line
+	4650 1350 4650 1550
+Text GLabel 4750 1450 3    60   BiDi
+VREF
+Kmarq B 10350 1950 "Warning Pin power_in not driven (Net 114)" F=1
+Kmarq B 5050 1550 "Warning Pin power_in not driven (Net 112)" F=1
+Kmarq B 4650 1550 "Warning Pin power_in not driven (Net 61)" F=1
+Text GLabel 8900 4650 2    60   BiDi
+USB_P
 NoConn ~ 7550 1550
 $Comp
 L GND #PWR046
@@ -692,10 +690,10 @@ $EndComp
 $Comp
 L VAA #PWR5
 U 1 1 4B8B0CB6
-P 4700 1350
-F 0 "#PWR5" H 4700 1410 30  0001 C C
-F 1 "VAA" H 4700 1460 30  0000 C C
-	1    4700 1350
+P 4650 1350
+F 0 "#PWR5" H 4650 1410 30  0001 C C
+F 1 "VAA" H 4650 1460 30  0000 C C
+	1    4650 1350
 	1    0    0    -1  
 $EndComp
 $Comp

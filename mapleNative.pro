@@ -45,7 +45,7 @@ ShowRat=1
 ShowMRa=0
 [pcbnew/libraries]
 LibDir=
-LibName1=/home/jessb/Projects/leafhw/hardware-lib/leaf
+LibName1=../hardware-lib/leaf
 LibName2=supports
 LibName3=connect
 LibName4=discret
