@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 1 5
 Title "noname.sch"
-Date "17 dec 2010"
+Date "9 feb 2011"
 Rev ""
 Comp ""
 Comment1 ""
