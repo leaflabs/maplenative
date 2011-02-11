@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11700 8267
 Sheet 4 5
 Title ""
-Date "9 feb 2011"
+Date "10 feb 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L VCC #PWR042
+L VCC #PWR15
 U 1 1 4B918A73
 P 7850 3900
-F 0 "#PWR042" H 7850 4000 30  0001 C C
+F 0 "#PWR15" H 7850 4000 30  0001 C C
 F 1 "VCC" H 7850 4000 30  0000 C C
 	1    7850 3900
 	1    0    0    -1  
@@ -183,19 +183,19 @@ Text GLabel 4350 3200 0    60   Input
 Text GLabel 4350 3100 0    60   Input
 77/FSMC_A7
 $Comp
-L GND #PWR043
+L GND #PWR14
 U 1 1 4B8F0473
 P 3600 4850
-F 0 "#PWR043" H 3600 4850 30  0001 C C
+F 0 "#PWR14" H 3600 4850 30  0001 C C
 F 1 "GND" H 3600 4780 30  0001 C C
 	1    3600 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR044
+L VCC #PWR13
 U 1 1 4B8F0470
 P 3600 4250
-F 0 "#PWR044" H 3600 4350 30  0001 C C
+F 0 "#PWR13" H 3600 4350 30  0001 C C
 F 1 "VCC" H 3600 4350 30  0000 C C
 	1    3600 4250
 	1    0    0    -1  

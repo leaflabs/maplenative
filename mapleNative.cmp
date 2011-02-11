@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 1/2/2011-23:03:13
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 10/2/2011-22:44:31
 
 BeginCmp
 TimeStamp = /4B8B0B59/4B918710;
@@ -222,6 +222,13 @@ TimeStamp = /4B8B0B59/4C77EDE0;
 Reference = D6;
 ValeurCmp = DIODE;
 IdModule  = SOD323-W;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B837477/4D54699B;
+Reference = JP1;
+ValeurCmp = JP_SW;
+IdModule  = JP_SW;
 EndCmp
 
 BeginCmp
