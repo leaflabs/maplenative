@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 10/2/2011-22:44:31
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 11/2/2011-21:10:37
 
 BeginCmp
 TimeStamp = /4B8B0B59/4B918710;
@@ -274,10 +274,10 @@ IdModule  = PIN_ARRAY_6x1;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B91426B/4B9142A9;
+TimeStamp = /4B91426B/4D559880;
 Reference = P5;
-ValeurCmp = CONN_4X2;
-IdModule  = pin_array_4x2;
+ValeurCmp = CONN_5X2;
+IdModule  = FTSH-105;
 EndCmp
 
 BeginCmp

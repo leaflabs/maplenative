@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  10/2/2011-22:44:31
+# EESchema Netlist Version 1.1 created  11/2/2011-21:10:37
 (
  ( /4B8B0B59/4B918710 PSON10-V3 BQ1 BQ24010DRC
   ( 1 N-000134 )
@@ -175,15 +175,17 @@
   ( 5 VCC )
   ( 6 GND )
  )
- ( /4B91426B/4B9142A9 pin_array_4x2 P5 CONN_4X2
-  ( 1 N-000113 )
-  ( 2 GND )
-  ( 3 N-000007 )
-  ( 4 N-000006 )
-  ( 5 N-000112 )
-  ( 6 N-000111 )
-  ( 7 VCC )
-  ( 8 N-000113 )
+ ( /4B91426B/4D559880 FTSH-105 P5 CONN_5X2
+  ( 1 VCC )
+  ( 2 N-000111 )
+  ( 3 GND )
+  ( 4 N-000007 )
+  ( 5 GND )
+  ( 6 N-000006 )
+  ( 7 ? )
+  ( 8 N-000112 )
+  ( 9 GND )
+  ( 10 N-000113 )
  )
  ( /4B91426B/4BAE3BF5 PIN_ARRAY_16x2 P6 CONN_16X2
   ( 1 N-000045 )
