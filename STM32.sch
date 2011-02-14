@@ -20,9 +20,9 @@ Connection ~ 4250 1300
 Wire Wire Line
 	4250 1200 4250 1500
 Wire Wire Line
-	3550 1500 4250 1500
+	4250 1500 3550 1500
 Wire Wire Line
-	3550 1200 3550 1500
+	3550 1500 3550 1200
 Wire Wire Line
 	4250 1300 4050 1300
 Wire Wire Line
