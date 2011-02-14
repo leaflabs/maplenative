@@ -13,6 +13,10 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 6600 4250 0    60   BiDi
+6/BUT
+Wire Wire Line
+	6600 4250 6700 4250
 Connection ~ 2850 1800
 Wire Wire Line
 	2950 1800 2850 1800
@@ -255,8 +259,6 @@ Wire Wire Line
 Wire Wire Line
 	8000 6550 8100 6550
 Wire Wire Line
-	6600 4250 6700 4250
-Wire Wire Line
 	3750 3600 3850 3600
 Wire Wire Line
 	7750 1550 7850 1550
@@ -416,15 +418,6 @@ F 0 "P8" V 7001 5000 60  0000 C C
 F 1 "CONN_32" V 7100 5000 60  0000 C C
 	1    7050 5000
 	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR06
-U 1 1 4B915C87
-P 6600 4250
-F 0 "#PWR06" H 6600 4250 30  0001 C C
-F 1 "GND" H 6600 4180 30  0001 C C
-	1    6600 4250
-	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR07
