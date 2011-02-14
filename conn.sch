@@ -233,19 +233,19 @@ Wire Wire Line
 Wire Wire Line
 	6700 6350 6600 6350
 Wire Wire Line
+	8100 4650 8000 4650
+Wire Wire Line
 	8100 5150 8000 5150
 Wire Wire Line
-	8100 5050 8000 5050
-Wire Wire Line
-	8100 4850 8000 4850
+	8100 4950 8000 4950
 Wire Wire Line
 	8000 6350 8100 6350
 Wire Wire Line
-	8000 4650 8100 4650
-Wire Wire Line
 	8000 4750 8100 4750
 Wire Wire Line
-	8100 4950 8000 4950
+	8000 4850 8100 4850
+Wire Wire Line
+	8100 5050 8000 5050
 Wire Wire Line
 	8100 6450 8000 6450
 Wire Wire Line
@@ -558,19 +558,19 @@ Text GLabel 8000 5650 0    60   BiDi
 35
 Text GLabel 8000 5550 0    60   BiDi
 36
-Text GLabel 8000 5150 0    60   BiDi
+Text GLabel 8000 4650 0    60   BiDi
 45
 Text GLabel 8000 6250 0    60   BiDi
 29
-Text GLabel 8000 5050 0    60   BiDi
+Text GLabel 8000 5150 0    60   BiDi
 40
-Text GLabel 8000 4950 0    60   BiDi
+Text GLabel 8000 5050 0    60   BiDi
 41
-Text GLabel 8000 4850 0    60   BiDi
+Text GLabel 8000 4950 0    60   BiDi
 42
-Text GLabel 8000 4750 0    60   BiDi
+Text GLabel 8000 4850 0    60   BiDi
 43
-Text GLabel 8000 4650 0    60   BiDi
+Text GLabel 8000 4750 0    60   BiDi
 44
 Text GLabel 8000 6350 0    60   BiDi
 28

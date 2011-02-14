@@ -145,15 +145,15 @@ Wire Wire Line
 Wire Wire Line
 	5650 6250 5650 6350
 Wire Wire Line
-	6750 6250 6750 6350
+	6850 6250 6850 6350
 Wire Wire Line
 	4650 6250 4650 6350
 Wire Wire Line
 	5050 6250 5050 6350
 Wire Wire Line
-	7050 6250 7050 6350
+	7150 6250 7150 6350
 Wire Wire Line
-	6850 6250 6850 6350
+	6950 6250 6950 6350
 Connection ~ 3700 6750
 Wire Wire Line
 	3800 6750 3300 6750
@@ -256,13 +256,13 @@ Wire Wire Line
 	4550 6350 3700 6350
 Connection ~ 3800 6350
 Wire Wire Line
-	6950 6250 6950 6350
+	7050 6250 7050 6350
 Wire Wire Line
-	7150 6250 7150 6350
+	6650 6250 6650 6350
 Wire Wire Line
 	5150 6250 5150 6350
 Wire Wire Line
-	6650 6250 6650 6350
+	6750 6250 6750 6350
 Wire Wire Line
 	5550 6250 5550 6350
 Wire Wire Line
@@ -512,21 +512,21 @@ Text GLabel 2750 3250 0    60   BiDi
 JTAG-TCK
 Text GLabel 2750 3150 0    60   BiDi
 JTAG-TMS
-Text GLabel 6850 6350 1    60   BiDi
-43
 Text GLabel 6950 6350 1    60   BiDi
-42
+43
 Text GLabel 7050 6350 1    60   BiDi
-41
+42
 Text GLabel 7150 6350 1    60   BiDi
+41
+Text GLabel 6650 6350 1    60   BiDi
 40
 Text GLabel 5150 6350 1    60   BiDi
 80/FSMC_NE2
 Text GLabel 4650 6350 1    60   BiDi
 33
-Text GLabel 6650 6350 1    60   BiDi
-45
 Text GLabel 6750 6350 1    60   BiDi
+45
+Text GLabel 6850 6350 1    60   BiDi
 44
 Text GLabel 4750 6350 1    60   BiDi
 32
