@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CVpcb (20080825c) date = 11/2/2011-21:10:37
+Cmp-Mod V01 Created by CVpcb (20080825c) date = 21/2/2011-14:58:38
 
 BeginCmp
 TimeStamp = /4B8B0B59/4B918710;
@@ -211,20 +211,6 @@ IdModule  = LEDSM0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /4B8B0B59/4C77EDD7;
-Reference = D5;
-ValeurCmp = DIODE;
-IdModule  = SOD323-W;
-EndCmp
-
-BeginCmp
-TimeStamp = /4B8B0B59/4C77EDE0;
-Reference = D6;
-ValeurCmp = DIODE;
-IdModule  = SOD323-W;
-EndCmp
-
-BeginCmp
 TimeStamp = /4B837477/4D54699B;
 Reference = JP1;
 ValeurCmp = JP_SW;
@@ -306,6 +292,13 @@ TimeStamp = /4B91426B/4BAE3942;
 Reference = P9;
 ValeurCmp = CONN_32;
 IdModule  = PIN_ARRAY_32;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B8B0B59/4D627C69;
+Reference = P10;
+ValeurCmp = CONN_4X2;
+IdModule  = pin_array_4x2;
 EndCmp
 
 BeginCmp
