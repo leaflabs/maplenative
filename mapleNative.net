@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  21/2/2011-15:13:53
+# EESchema Netlist Version 1.1 created  21/2/2011-16:33:02
 (
  ( /4B91426B/4D559880 $noname  P5 CONN_5X2 {Lib=CONN_5X2}
   (    1 VCC )
@@ -160,15 +160,15 @@
   (    1 +5V )
   (    2 N-000108 )
  )
- ( /4B8B0B59/4B98D407 $noname  C21 47uF {Lib=CP}
+ ( /4B8B0B59/4B98D407 $noname  C21 22uF {Lib=CP}
   (    1 VAA )
   (    2 GND )
  )
- ( /4B8B0B59/4B98D404 $noname  C22 47uF {Lib=CP}
+ ( /4B8B0B59/4B98D404 $noname  C22 22uF {Lib=CP}
   (    1 VCC )
   (    2 GND )
  )
- ( /4B8B0B59/4B98D3FE $noname  C20 47uF {Lib=CP}
+ ( /4B8B0B59/4B98D3FE $noname  C20 22uF {Lib=CP}
   (    1 N-000135 )
   (    2 GND )
  )
@@ -582,11 +582,11 @@
   (    1 N-000119 )
   (    3 N-000120 )
  )
- ( /4B837477/4B837588 $noname  C2 16pF {Lib=C}
+ ( /4B837477/4B837588 $noname  C2 18pF {Lib=C}
   (    1 N-000120 )
   (    2 GND )
  )
- ( /4B837477/4B837587 $noname  C1 16pF {Lib=C}
+ ( /4B837477/4B837587 $noname  C1 18pF {Lib=C}
   (    1 N-000119 )
   (    2 GND )
  )
