@@ -20,6 +20,7 @@ You will need:
 \item a supply of header jumpers (2x per board)
 \end{itemize}
 
+\clearpage
 \subsection*{2. Visual Inspection}
 
 A brief visual inspection of the board should be performed to make sure there are no egregious physical errors. Some things to look out for are as follows:
@@ -27,24 +28,28 @@ A brief visual inspection of the board should be performed to make sure there ar
 \item Is the silkscreen in focus/legible?
 \item Are the buttons firmly in place? (Give them a nudge to be sure.)
 \item Are there any visible shorts between pins?
-\item Are there any large lumps of solder on any of the header?
+\item Are there any large lumps of solder on any of the headers?
 \item Is there any un-melted solder paste?
 \end{itemize}
 
 \begin{center}
-\includegraphics[width=\linewidth]{header-short}
-\includegraphics[width=\linewidth]{unmelted-solder}
-\includegraphics[width=\linewidth]{overheated-reset-button}
+\includegraphics[width=.9\linewidth]{header-short}
+
+\includegraphics[width=.7\linewidth]{overheated-reset-button}
+\includegraphics[width=.8\linewidth]{unmelted-solder}
 \end{center}
 
+%\clearpage
 \subsection*{3. Attach Jumpers}
 
 If the power select jumpers were not attached during production, they should be added at this stage. If they were attached, their proper placement should be verified. The power select jumper should be on USB and the battery charger should be half attached.
 
+
 \begin{center}
-\includegraphics[width=\linewidth]{jumpers}
+\includegraphics[width=.8\linewidth]{jumpers}
 \end{center}
 
+\clearpage
 \subsection*{4. Flash bootloader}
 The bootloader should be flashed via he hardware serial bootloader interface, as follows:
 
@@ -58,6 +63,7 @@ The bootloader should be flashed via he hardware serial bootloader interface, as
 \item Press \tt RESET. \rm The blue status LED should blink perpetually.
 \end{enumerate}
 
+\clearpage
 \subsection*{5. Upload test program}
 To ensure basic functionality of the board, a test program must be uploaded, as follows:
 
