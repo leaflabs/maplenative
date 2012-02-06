@@ -18,3 +18,4 @@ add them as follows:
 
 3. In PCBnew (PCB editor), click Preferences -> Library. If leaf.mod
    is not already present, add it, save config, and close.
+
