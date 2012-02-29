@@ -1,11 +1,40 @@
-EESchema Schematic File Version 2  date Sat 16 Apr 2011 10:09:15 AM PDT
-LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./mapleNative.cache
+EESchema Schematic File Version 2  date Wed 29 Feb 2012 01:43:44 PM PST
+LIBS:power
+LIBS:leaf
+LIBS:device
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:valves
+LIBS:mapleNative-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 5 5
 Title ""
-Date "21 feb 2011"
+Date "29 feb 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -13,7 +42,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 4550 6450 1    60   BiDi ~ 0
+Text GLabel 4550 6450 3    60   BiDi ~ 0
 6/BUT
 Connection ~ 4550 6350
 Wire Wire Line
@@ -401,12 +430,7 @@ F 2 "JP_SW" H 3900 1450 50  0001 C CNN
 	1    3900 1300
 	1    0    0    -1  
 $EndComp
-Kmarq B 4750 1550 "Warning Pin power_in not driven (Net 117)" F=1
-Kmarq B 10350 1950 "Warning Pin power_in not driven (Net 116)" F=1
-Kmarq B 5050 1550 "Warning Pin power_in not driven (Net 62)" F=1
-Kmarq B 5250 1550 "Warning Pin power_in not driven (Net 61)" F=1
-Kmarq B 3550 1200 "Warning Pin power_in not driven (Net 1)" F=1
-Text GLabel 4250 1200 3    60   BiDi ~ 0
+Text GLabel 4250 1200 1    60   BiDi ~ 0
 VREF
 $Comp
 L VAA #PWR5
@@ -417,9 +441,9 @@ F 1 "VAA" H 3550 1310 30  0000 C CNN
 	1    3550 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5050 1450 3    60   BiDi ~ 0
+Text GLabel 5050 1450 1    60   BiDi ~ 0
 VBAT
-Text GLabel 4750 1450 3    60   BiDi ~ 0
+Text GLabel 4750 1450 1    60   BiDi ~ 0
 VREF
 Text GLabel 8900 4650 2    60   BiDi ~ 0
 USB_P
@@ -469,7 +493,7 @@ F 1 "BUT" H 1050 7250 60  0001 C CNN
 	1    1050 7000
 	0    -1   -1   0   
 $EndComp
-Text GLabel 7650 1450 3    60   BiDi ~ 0
+Text GLabel 7650 1450 1    60   BiDi ~ 0
 RST
 $Comp
 L STM32F103ZE U1
@@ -512,33 +536,33 @@ Text GLabel 2750 3250 0    60   BiDi ~ 0
 JTAG-TCK
 Text GLabel 2750 3150 0    60   BiDi ~ 0
 JTAG-TMS
-Text GLabel 6950 6350 1    60   BiDi ~ 0
+Text GLabel 6950 6350 3    60   BiDi ~ 0
 43
-Text GLabel 7050 6350 1    60   BiDi ~ 0
+Text GLabel 7050 6350 3    60   BiDi ~ 0
 42
-Text GLabel 7150 6350 1    60   BiDi ~ 0
+Text GLabel 7150 6350 3    60   BiDi ~ 0
 41
-Text GLabel 6650 6350 1    60   BiDi ~ 0
+Text GLabel 6650 6350 3    60   BiDi ~ 0
 40
-Text GLabel 5150 6350 1    60   BiDi ~ 0
+Text GLabel 5150 6350 3    60   BiDi ~ 0
 80/FSMC_NE2
-Text GLabel 4650 6350 1    60   BiDi ~ 0
+Text GLabel 4650 6350 3    60   BiDi ~ 0
 33
-Text GLabel 6750 6350 1    60   BiDi ~ 0
+Text GLabel 6750 6350 3    60   BiDi ~ 0
 45
-Text GLabel 6850 6350 1    60   BiDi ~ 0
+Text GLabel 6850 6350 3    60   BiDi ~ 0
 44
-Text GLabel 4750 6350 1    60   BiDi ~ 0
+Text GLabel 4750 6350 3    60   BiDi ~ 0
 32
-Text GLabel 4850 6350 1    60   BiDi ~ 0
+Text GLabel 4850 6350 3    60   BiDi ~ 0
 31
-Text GLabel 4950 6350 1    60   BiDi ~ 0
+Text GLabel 4950 6350 3    60   BiDi ~ 0
 30
-Text GLabel 5250 6350 1    60   BiDi ~ 0
+Text GLabel 5250 6350 3    60   BiDi ~ 0
 34
-Text GLabel 5350 6350 1    60   BiDi ~ 0
+Text GLabel 5350 6350 3    60   BiDi ~ 0
 35
-Text GLabel 5450 6350 1    60   BiDi ~ 0
+Text GLabel 5450 6350 3    60   BiDi ~ 0
 36
 Text GLabel 8900 5050 2    60   Output ~ 0
 75/FSMC_A22
@@ -676,41 +700,41 @@ Text GLabel 8900 3650 2    60   BiDi ~ 0
 98/FSMC_D14
 Text GLabel 8900 3550 2    60   BiDi ~ 0
 96/FSMC_D13
-Text GLabel 7750 6350 1    60   Output ~ 0
+Text GLabel 7750 6350 3    60   Output ~ 0
 56/FSMC_A0
-Text GLabel 7650 6350 1    60   Output ~ 0
+Text GLabel 7650 6350 3    60   Output ~ 0
 59/FSMC_A1
-Text GLabel 7550 6350 1    60   Output ~ 0
+Text GLabel 7550 6350 3    60   Output ~ 0
 62/FSMC_A2
-Text GLabel 7450 6350 1    60   Output ~ 0
+Text GLabel 7450 6350 3    60   Output ~ 0
 65/FSMC_A3
-Text GLabel 7350 6350 1    60   Output ~ 0
+Text GLabel 7350 6350 3    60   Output ~ 0
 68/FSMC_A4
-Text GLabel 7250 6350 1    60   Output ~ 0
+Text GLabel 7250 6350 3    60   Output ~ 0
 71/FSMC_A5
-Text GLabel 6550 6350 1    60   Output ~ 0
+Text GLabel 6550 6350 3    60   Output ~ 0
 74/FSMC_A6
-Text GLabel 6450 6350 1    60   Output ~ 0
+Text GLabel 6450 6350 3    60   Output ~ 0
 77/FSMC_A7
-Text GLabel 6350 6350 1    60   Output ~ 0
+Text GLabel 6350 6350 3    60   Output ~ 0
 79/FSMC_A8
-Text GLabel 6250 6350 1    60   Output ~ 0
+Text GLabel 6250 6350 3    60   Output ~ 0
 82/FSMC_A9
-Text GLabel 6050 6350 1    60   Output ~ 0
+Text GLabel 6050 6350 3    60   Output ~ 0
 85/FSMC_A10
-Text GLabel 5850 6350 1    60   Output ~ 0
+Text GLabel 5850 6350 3    60   Output ~ 0
 91/FSMC_A12
-Text GLabel 5950 6350 1    60   Output ~ 0
+Text GLabel 5950 6350 3    60   Output ~ 0
 88/FSMC_A11
-Text GLabel 5750 6350 1    60   Output ~ 0
+Text GLabel 5750 6350 3    60   Output ~ 0
 94/FSMC_A13
-Text GLabel 5650 6350 1    60   Output ~ 0
+Text GLabel 5650 6350 3    60   Output ~ 0
 97/FSMC_A14
-Text GLabel 5550 6350 1    60   Output ~ 0
+Text GLabel 5550 6350 3    60   Output ~ 0
 99/FSMC_A15
 Text GLabel 1750 6800 2    60   BiDi ~ 0
 RST
-Text GLabel 5050 6350 1    60   BiDi ~ 0
+Text GLabel 5050 6350 3    60   BiDi ~ 0
 83/FSMC_NE3
 Text GLabel 8900 3250 2    60   BiDi ~ 0
 86/FSMC_NWE

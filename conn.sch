@@ -1,11 +1,40 @@
-EESchema Schematic File Version 2  date Sat 16 Apr 2011 10:09:15 AM PDT
-LIBS:power,/home/jessb/Projects/leafhw/hardware-lib/leaf,device,conn,linear,regul,74xx,cmos4000,adc-dac,memory,xilinx,special,microcontrollers,dsp,microchip,analog_switches,motorola,texas,intel,audio,interface,digital-audio,philips,display,cypress,siliconi,contrib,valves,./mapleNative.cache
+EESchema Schematic File Version 2  date Wed 29 Feb 2012 01:43:44 PM PST
+LIBS:power
+LIBS:leaf
+LIBS:device
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:contrib
+LIBS:valves
+LIBS:mapleNative-cache
 EELAYER 24  0
 EELAYER END
 $Descr A4 11700 8267
+encoding utf-8
 Sheet 2 5
 Title ""
-Date "21 feb 2011"
+Date "29 feb 2012"
 Rev ""
 Comp ""
 Comment1 ""
