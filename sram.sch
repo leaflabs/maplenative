@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 29 Feb 2012 01:43:44 PM PST
+EESchema Schematic File Version 2  date Thu 01 Mar 2012 02:03:11 PM PST
 LIBS:power
 LIBS:leaf
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 5
 Title ""
-Date "29 feb 2012"
+Date "1 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -152,10 +152,10 @@ Wire Wire Line
 	7850 4500 7850 4600
 Connection ~ 7850 4600
 $Comp
-L VCC #PWR041
+L VCC #PWR043
 U 1 1 4B918A73
 P 7850 3900
-F 0 "#PWR041" H 7850 4000 30  0001 C CNN
+F 0 "#PWR043" H 7850 4000 30  0001 C CNN
 F 1 "VCC" H 7850 4000 30  0000 C CNN
 	1    7850 3900
 	1    0    0    -1  
@@ -210,19 +210,19 @@ Text GLabel 4350 3200 0    60   Input ~ 0
 Text GLabel 4350 3100 0    60   Input ~ 0
 77/FSMC_A7
 $Comp
-L GND #PWR042
+L GND #PWR044
 U 1 1 4B8F0473
 P 3400 4850
-F 0 "#PWR042" H 3400 4850 30  0001 C CNN
+F 0 "#PWR044" H 3400 4850 30  0001 C CNN
 F 1 "GND" H 3400 4780 30  0001 C CNN
 	1    3400 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR043
+L VCC #PWR045
 U 1 1 4B8F0470
 P 3400 4250
-F 0 "#PWR043" H 3400 4350 30  0001 C CNN
+F 0 "#PWR045" H 3400 4350 30  0001 C CNN
 F 1 "VCC" H 3400 4350 30  0000 C CNN
 	1    3400 4250
 	1    0    0    -1  
