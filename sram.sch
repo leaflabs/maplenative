@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 01 Mar 2012 02:32:09 PM PST
+EESchema Schematic File Version 2  date Thu 01 Mar 2012 02:48:14 PM PST
 LIBS:power
 LIBS:leaf
 LIBS:device
@@ -28,7 +28,7 @@ LIBS:siliconi
 LIBS:contrib
 LIBS:valves
 LIBS:mapleNative-cache
-EELAYER 24  0
+EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
