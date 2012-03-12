@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Mon 12 Mar 2012 12:39:35 PM PDT
+# EESchema Netlist Version 1.1 created  Mon 12 Mar 2012 12:41:51 PM PDT
 (
  ( /4B837477/4BB523CB PSHBTN BUT1 BUT
   ( 1 GND )
@@ -136,7 +136,7 @@
   ( A /pwr/VOUT )
   ( C /pwr/VIN )
  )
- ( /4B8B0B59/4F5E306C LEDSM0603 D2 DIODE
+ ( /4B8B0B59/4F5E306C SOD323-W D2 DIODE
   ( A +5V )
   ( C /pwr/VIN )
  )
