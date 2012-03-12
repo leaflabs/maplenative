@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 09 Mar 2012 02:22:02 PM PST
+EESchema Schematic File Version 2  date Mon 12 Mar 2012 11:07:20 AM PDT
 LIBS:power
 LIBS:leaf
 LIBS:device
@@ -32,9 +32,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 encoding utf-8
-Sheet 2 6
+Sheet 2 5
 Title ""
-Date "9 mar 2012"
+Date "12 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -42,6 +42,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L SD SD1
+U 1 1 4F5E384E
+P 7450 1900
+F 0 "SD1" H 7300 1450 60  0000 C CNN
+F 1 "SD" H 7300 2350 60  0000 C CNN
+	1    7450 1900
+	1    0    0    -1  
+$EndComp
 Text GLabel 6600 3850 0    60   BiDi ~ 0
 2
 Wire Wire Line
@@ -377,15 +386,6 @@ Text GLabel 7850 1650 2    60   BiDi ~ 0
 18/SDIO_D3
 Text GLabel 7850 1550 2    60   BiDi ~ 0
 17/SDIO_D2
-$Comp
-L SD SD1
-U 1 1 4C4494CE
-P 7450 1900
-F 0 "SD1" H 7300 1450 60  0000 C CNN
-F 1 "SD" H 7300 2350 60  0000 C CNN
-	1    7450 1900
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR04
 U 1 1 4BAE7142
