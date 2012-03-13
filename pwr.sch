@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 12 Mar 2012 11:07:20 AM PDT
+EESchema Schematic File Version 2  date Tue 13 Mar 2012 08:26:04 AM PDT
 LIBS:power
 LIBS:leaf
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 5
 Title ""
-Date "12 mar 2012"
+Date "13 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -592,6 +592,8 @@ U 1 1 4F5E304C
 P 8000 5100
 F 0 "L2" V 7950 5100 40  0000 C CNN
 F 1 "2.2uH" V 8100 5100 40  0000 C CNN
+F 3 "http://www.yuden.co.jp/productdata/catalog/en/wound04_e.pdf" H 8000 5100 60  0001 C CNN
+F 4 "587-2890-1-ND" V 8000 5100 60  0001 C CNN "Digikey P/N"
 	1    8000 5100
 	0    1    1    0   
 $EndComp
@@ -749,6 +751,8 @@ U 1 1 4F5E303A
 P 8000 3600
 F 0 "L1" V 7950 3600 40  0000 C CNN
 F 1 "3.3uH" V 8100 3600 40  0000 C CNN
+F 3 "http://www.yuden.co.jp/productdata/catalog/en/wound04_e.pdf" H 8000 3600 60  0001 C CNN
+F 4 "587-2892-1-ND" V 8000 3600 60  0001 C CNN "Digikey P/N"
 	1    8000 3600
 	0    1    1    0   
 $EndComp

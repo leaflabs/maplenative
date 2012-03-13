@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Mon 12 Mar 2012 12:41:51 PM PDT
+# EESchema Netlist Version 1.1 created  Tue 13 Mar 2012 08:26:06 AM PDT
 (
  ( /4B837477/4BB523CB PSHBTN BUT1 BUT
   ( 1 GND )
@@ -88,15 +88,15 @@
   ( 1 VAA )
   ( 2 GND )
  )
- ( /4B8B0B59/4F5E305E UD-4x5 C20 0.1uF
+ ( /4B8B0B59/4F5E305E SM0402 C20 0.1uF
   ( 1 N-000144 )
   ( 2 GND )
  )
- ( /4B8B0B59/4F5E3052 UD-4x5 C21 2.2uF
+ ( /4B8B0B59/4F5E3052 SM0402 C21 2.2uF
   ( 1 /pwr/VREG )
   ( 2 GND )
  )
- ( /4B8B0B59/4F5E3050 UD-4x5 C22 330pF
+ ( /4B8B0B59/4F5E3050 SM0402 C22 330pF
   ( 1 N-000131 )
   ( 2 N-000141 )
  )
@@ -152,11 +152,11 @@
   ( 1 VAA )
   ( 2 VREF )
  )
- ( /4B8B0B59/4F5E303A WurthInd L1 3.3uH
+ ( /4B8B0B59/4F5E303A NRS4018 L1 3.3uH
   ( 1 /pwr/VREG )
   ( 2 N-000136 )
  )
- ( /4B8B0B59/4F5E304C WurthInd L2 2.2uH
+ ( /4B8B0B59/4F5E304C NRS4018 L2 2.2uH
   ( 1 N-000130 )
   ( 2 N-000142 )
  )
