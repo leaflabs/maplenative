@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Tue 13 Mar 2012 08:26:06 AM PDT
+Cmp-Mod V01 Created by CvPcb (2012-01-19 BZR 3256)-stable date = Wed 14 Mar 2012 01:26:40 PM PDT
 
 BeginCmp
 TimeStamp = /4B837477/4BB523CB;
@@ -225,6 +225,13 @@ IdModule  = UD-4x5;
 EndCmp
 
 BeginCmp
+TimeStamp = /4B8B0B59/4F60FA13;
+Reference = C31;
+ValeurCmp = 22uF;
+IdModule  = UD-4x5;
+EndCmp
+
+BeginCmp
 TimeStamp = /4B8B0B59/4B91871B;
 Reference = D1;
 ValeurCmp = DIODE;
@@ -271,6 +278,13 @@ TimeStamp = /4B8B0B59/4F5E304C;
 Reference = L2;
 ValeurCmp = 2.2uH;
 IdModule  = NRS4018;
+EndCmp
+
+BeginCmp
+TimeStamp = /4B8B0B59/4F60FE6E;
+Reference = MCP1700T1;
+ValeurCmp = MCP1700T;
+IdModule  = SOT-23A;
 EndCmp
 
 BeginCmp

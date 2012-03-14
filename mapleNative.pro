@@ -1,5 +1,5 @@
-update=10/2/2011-22:42:24
-last_client=pcbnew
+update=Wed 14 Mar 2012 01:08:44 PM PDT
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=.net
@@ -123,3 +123,5 @@ LibName6=divers
 LibName7=libcms
 LibName8=display
 LibName9=valves
+[general]
+version=1
