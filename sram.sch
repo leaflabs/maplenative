@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 15 Mar 2012 11:03:59 AM PDT
+EESchema Schematic File Version 2  date Mon 19 Mar 2012 12:26:02 PM PDT
 LIBS:power
 LIBS:leaf
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 4 5
 Title ""
-Date "15 mar 2012"
+Date "19 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -166,6 +166,7 @@ U 1 1 4B918A65
 P 7850 4250
 F 0 "R3" V 7930 4250 50  0000 C CNN
 F 1 "10k" V 7850 4250 50  0000 C CNN
+F 4 "311-10KJRCT-ND" V 7850 4250 60  0001 C CNN "Digikey P/N"
 	1    7850 4250
 	1    0    0    -1  
 $EndComp
@@ -175,6 +176,7 @@ U 1 1 4B915E91
 P 3800 4550
 F 0 "C4" H 3850 4650 50  0000 L CNN
 F 1 "0.1uF" H 3850 4450 50  0000 L CNN
+F 4 "445-4952-1-ND" H 3800 4550 60  0001 C CNN "Digikey P/N"
 	1    3800 4550
 	1    0    0    -1  
 $EndComp
@@ -184,6 +186,7 @@ U 1 1 4B915E8C
 P 3400 4550
 F 0 "C3" H 3450 4650 50  0000 L CNN
 F 1 "0.1uF" H 3450 4450 50  0000 L CNN
+F 4 "445-4952-1-ND" H 3400 4550 60  0001 C CNN "Digikey P/N"
 	1    3400 4550
 	1    0    0    -1  
 $EndComp
@@ -291,6 +294,7 @@ U 1 1 4B8AFC40
 P 5600 3550
 F 0 "U2" H 4800 4850 60  0000 C CNN
 F 1 "IS62WV51216ALL" H 5650 3550 60  0000 C CNN
+F 4 "706-1048-ND" H 5600 3550 60  0001 C CNN "Digikey P/N"
 	1    5600 3550
 	1    0    0    -1  
 $EndComp

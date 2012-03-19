@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 15 Mar 2012 11:03:59 AM PDT
+EESchema Schematic File Version 2  date Mon 19 Mar 2012 12:26:02 PM PDT
 LIBS:power
 LIBS:leaf
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 5 5
 Title ""
-Date "15 mar 2012"
+Date "19 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -515,6 +515,7 @@ U 1 1 4BBE43DA
 P 10050 1850
 F 0 "D4" H 10050 1950 50  0000 C CNN
 F 1 "LED" H 10050 1750 50  0000 C CNN
+F 4 "P13484CT-ND" H 10050 1850 60  0001 C CNN "Digikey P/N"
 	1    10050 1850
 	1    0    0    -1  
 $EndComp
@@ -524,6 +525,7 @@ U 1 1 4BBE4342
 P 9850 2200
 F 0 "R18" V 9930 2200 50  0000 C CNN
 F 1 "1k" V 9850 2200 50  0000 C CNN
+F 4 "P1.0KJCT-ND" V 9850 2200 60  0001 C CNN "Digikey P/N"
 	1    9850 2200
 	-1   0    0    1   
 $EndComp
@@ -533,6 +535,7 @@ U 1 1 4BB523D5
 P 3700 6550
 F 0 "BUT2" H 3700 6800 60  0000 C CNN
 F 1 "BUT" H 3700 6800 60  0001 C CNN
+F 4 "401-1426-1-ND" H 3700 6550 60  0001 C CNN "Digikey P/N"
 	1    3700 6550
 	0    -1   -1   0   
 $EndComp
@@ -542,6 +545,7 @@ U 1 1 4BB523CB
 P 1050 7000
 F 0 "BUT1" H 1050 7250 60  0000 C CNN
 F 1 "BUT" H 1050 7250 60  0001 C CNN
+F 4 "401-1426-1-ND" H 1050 7000 60  0001 C CNN "Digikey P/N"
 	1    1050 7000
 	0    -1   -1   0   
 $EndComp
@@ -829,6 +833,7 @@ U 1 1 4B8383C6
 P 8400 1250
 F 0 "OSC1" H 8500 1300 50  0000 L CNN
 F 1 "8Mhz" H 8500 1200 50  0000 L CNN
+F 4 "535-9721-1-ND" H 8400 1250 60  0001 C CNN "Digikey P/N"
 	1    8400 1250
 	1    0    0    -1  
 $EndComp
@@ -847,6 +852,7 @@ U 1 1 4B837588
 P 8900 1400
 F 0 "C2" H 8950 1500 50  0000 L CNN
 F 1 "18pF" H 8950 1300 50  0000 L CNN
+F 4 "587-1950-1-ND" H 8900 1400 60  0001 C CNN "Digikey P/N"
 	1    8900 1400
 	0    -1   -1   0   
 $EndComp
@@ -856,6 +862,7 @@ U 1 1 4B837587
 P 8900 1050
 F 0 "C1" H 8950 1150 50  0000 L CNN
 F 1 "18pF" H 8950 950 50  0000 L CNN
+F 4 "587-1950-1-ND" H 8900 1050 60  0001 C CNN "Digikey P/N"
 	1    8900 1050
 	0    -1   -1   0   
 $EndComp
@@ -874,6 +881,7 @@ U 1 1 4B83757D
 P 8000 700
 F 0 "R2" V 8080 700 50  0000 C CNN
 F 1 "10k" V 8000 700 50  0000 C CNN
+F 4 "311-10KJRCT-ND" V 8000 700 60  0001 C CNN "Digikey P/N"
 	1    8000 700 
 	0    1    1    0   
 $EndComp
@@ -901,6 +909,7 @@ U 1 1 4B837579
 P 1050 6500
 F 0 "R1" V 1130 6500 50  0000 C CNN
 F 1 "1.5k" V 1050 6500 50  0000 C CNN
+F 4 "445-4952-1-ND" V 1050 6500 60  0001 C CNN "Digikey P/N"
 	1    1050 6500
 	1    0    0    -1  
 $EndComp

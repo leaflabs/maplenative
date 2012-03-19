@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 15 Mar 2012 11:03:59 AM PDT
+EESchema Schematic File Version 2  date Mon 19 Mar 2012 12:26:02 PM PDT
 LIBS:power
 LIBS:leaf
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 2 5
 Title ""
-Date "15 mar 2012"
+Date "19 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,6 +48,7 @@ U 1 1 4F5E384E
 P 7450 1900
 F 0 "SD1" H 7300 1450 60  0000 C CNN
 F 1 "SD" H 7300 2350 60  0000 C CNN
+F 4 "HR1941CT-ND" H 7450 1900 60  0001 C CNN "Digikey P/N"
 	1    7450 1900
 	1    0    0    -1  
 $EndComp
@@ -438,6 +439,7 @@ U 1 1 4BAE3942
 P 8450 5000
 F 0 "P9" V 8401 5000 60  0000 C CNN
 F 1 "CONN_32" V 8500 5000 60  0000 C CNN
+F 4 "S7084-ND" V 8450 5000 60  0001 C CNN "Digikey P/N"
 	1    8450 5000
 	1    0    0    -1  
 $EndComp
@@ -447,6 +449,7 @@ U 1 1 4BAE31AC
 P 7050 5000
 F 0 "P8" V 7001 5000 60  0000 C CNN
 F 1 "CONN_32" V 7100 5000 60  0000 C CNN
+F 4 "S7084-ND" V 7050 5000 60  0001 C CNN "Digikey P/N"
 	1    7050 5000
 	1    0    0    -1  
 $EndComp

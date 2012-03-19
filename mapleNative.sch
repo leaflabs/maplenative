@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 15 Mar 2012 11:03:59 AM PDT
+EESchema Schematic File Version 2  date Mon 19 Mar 2012 12:26:02 PM PDT
 LIBS:power
 LIBS:leaf
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 5
 Title "noname.sch"
-Date "15 mar 2012"
+Date "19 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
