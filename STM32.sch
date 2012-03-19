@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 19 Mar 2012 12:26:02 PM PDT
+EESchema Schematic File Version 2  date Mon 19 Mar 2012 01:55:25 PM PDT
 LIBS:power
 LIBS:leaf
 LIBS:device
@@ -448,6 +448,7 @@ U 1 1 4F4FEF89
 P 4650 1150
 F 0 "C25" H 4700 1250 50  0000 L CNN
 F 1 "2.2uF" H 4700 1050 50  0000 L CNN
+F 4 "445-6847-1-ND" H 4650 1150 60  0001 C CNN "Digikey P/N"
 	1    4650 1150
 	1    0    0    -1  
 $EndComp
@@ -457,6 +458,7 @@ U 1 1 4F4FEF83
 P 4350 1150
 F 0 "C24" H 4400 1250 50  0000 L CNN
 F 1 "2.2uF" H 4400 1050 50  0000 L CNN
+F 4 "445-6847-1-ND" H 4350 1150 60  0001 C CNN "Digikey P/N"
 	1    4350 1150
 	1    0    0    -1  
 $EndComp
