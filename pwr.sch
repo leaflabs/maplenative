@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 20 Mar 2012 09:38:58 AM PDT
+EESchema Schematic File Version 2  date Tue 20 Mar 2012 11:51:21 AM PDT
 LIBS:power
 LIBS:leaf
 LIBS:device
@@ -1111,6 +1111,7 @@ U 1 1 4B915CF6
 P 950 6450
 F 0 "USB1" H 950 6700 60  0000 C CNN
 F 1 "USB" V 950 6150 60  0001 C CNN
+F 4 "670-1190-1-ND" H 950 6450 60  0001 C CNN "Digikey P/N"
 	1    950  6450
 	1    0    0    -1  
 $EndComp

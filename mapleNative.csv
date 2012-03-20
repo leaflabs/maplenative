@@ -1,0 +1,43 @@
+          0.1uF	 15	"C3, C4, C5, C6, C7, C8, C9, C10, C13, C14, C15, C16, C18, C19, C20"	445-4952-1-ND
+          1.0uF	  1	"C26"	445-4979-1-ND
+           1.5k	  4	"R1, R12, R19, R20"	P1.5KJCT-ND
+           105K	  1	"R24"	P105KLCT-ND
+            10K	  7	"R2, R3, R8, R13, R14, R15, R16"	311-10KJRCT-ND
+           10pF	  1	"C23"	587-1947-1-ND
+           10uF	  1	"C17"	445-1371-1-ND
+           121K	  1	"R23"	P121KLCT-ND
+            15K	  1	"R21"	P15KJCT-ND
+           18pF	  2	"C1, C2"	587-1950-1-ND
+             1k	  4	"R4, R6, R17, R18"	P1.0KJCT-ND
+          2.2uF	  3	"C21, C24, C25"	445-6847-1-ND
+          2.2uH	  1	"L2"	587-2890-1-ND
+             22	  2	"R9, R10"	311-22.0LRCT-ND
+           22uF	  3	"C27, C30, C31"	PCE4529CT-ND
+          3.01K	  1	"R5"	P3.01KLCT-ND
+          3.3uH	  1	"L1"	587-2892-1-ND
+           324K	  1	"R22"	P324KLCT-ND
+          330pF	  1	"C22"	445-4910-1-ND
+           33pF	  1	"C29"	587-1205-1-ND
+            36k	  1	"R11"	311-36.0KLRCT-ND
+          4.7uF	  1	"C28"	490-5408-1-ND
+            47k	  1	"R7"	311-47.0KLRCT-ND
+           47pF	  2	"C11, C12"	399-1019-1-ND
+           8Mhz	  1	"OSC1"	535-9721-1-ND
+            BUT	  2	"BUT1, BUT2"	401-1426-1-ND
+        CONN_16	  1	"P7"
+      CONN_16X2	  1	"P6"
+         CONN_2	  2	"P1, P2"	455-1749-1-ND
+        CONN_32	  2	"P8, P9"	S7084-ND
+       CONN_5X2	  1	"P5"
+         CONN_6	  1	"P4"	A26418-ND
+          DIODE	  2	"D1, D2"	568-4124-1-ND
+          Green	  1	"D3"	P11480CT-ND
+ IS62WV51216ALL	  1	"U2"	706-1048-ND
+          JP_SW	  1	"JP1"
+            LED	  1	"D4"	P13484CT-ND
+        LTC3566	  1	"U3"	LTC3566EUF#PBF-ND
+       MCP1700T	  1	"MCP1700T1"	MCP1703T-3302E/CBCT-ND
+            NPN	  2	"Q1, Q2"	568-1630-1-ND
+             SD	  1	"SD1"	HR1941CT-ND
+    STM32F407ZE	  1	"U1"
+            USB	  1	"USB1"	670-1190-1-ND
