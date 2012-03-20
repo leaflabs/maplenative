@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 19 Mar 2012 01:55:25 PM PDT
+EESchema Schematic File Version 2  date Tue 20 Mar 2012 09:38:58 AM PDT
 LIBS:power
 LIBS:leaf
 LIBS:device
@@ -34,7 +34,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 3 5
 Title ""
-Date "19 mar 2012"
+Date "20 mar 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -503,6 +503,7 @@ U 1 1 4F5E305C
 P 4500 4750
 F 0 "C17" H 4550 4850 50  0000 L CNN
 F 1 "10uF" H 4550 4650 50  0000 L CNN
+F 4 "445-1371-1-ND" H 4500 4750 60  0001 C CNN "Digikey P/N"
 	1    4500 4750
 	1    0    0    -1  
 $EndComp
